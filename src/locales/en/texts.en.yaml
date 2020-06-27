@@ -1,0 +1,17 @@
+---
+generic:
+  title: ZOEF
+
+nav:
+  contact: Contact
+
+index:
+  wip: More info coming soon!
+
+not-found:
+  title: Page Not Found
+  subtitle: This page doesn't seem to exist.
+  action: Return home?
+
+contact:
+  title: Contact

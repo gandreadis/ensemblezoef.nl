@@ -1,0 +1,14 @@
+---
+generic:
+  title: ZOEF
+
+nav:
+  contact: Contact
+
+index:
+  wip: Hier komt snel meer!
+
+not-found:
+  title: Pagina niet gevonden
+  subtitle: Deze pagina bestaat helaas niet.
+  action: Terugkeren naar home?
