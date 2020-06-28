@@ -13,7 +13,9 @@ const Index = ({ intl }) => (
         <h1 className="font-italic font-family-body">
           {intl.formatMessage({ id: 'generic.title' })}
         </h1>
-        <p className="text-muted font-italic">{intl.formatMessage({ id: 'index.wip' })}</p>
+        <p className="text-muted font-italic">
+          {intl.formatMessage({ id: 'index.wip' })}
+        </p>
       </div>
     </Container>
   </Layout>

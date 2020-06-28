@@ -59,10 +59,7 @@ class CustomNavbar extends React.Component {
                   this.state.transparent && pageInfo.name === 'index' ? 0 : 1,
               }}
             >
-              <Navbar.Brand
-                as="span"
-                className="text-light font-italic"
-              >
+              <Navbar.Brand as="span" className="text-light font-italic">
                 {intl.formatMessage({ id: 'generic.title' })}
               </Navbar.Brand>
             </Link>
@@ -71,7 +68,12 @@ class CustomNavbar extends React.Component {
               <Nav className="ml-auto" activeKey={pageInfo && pageInfo.name}>
                 <Nav.Link
                   href="/contact"
-                  className={'mr-2 ' + (this.state.transparent && pageInfo.name === 'index' ? "text-dark" : "text-white")}
+                  className={
+                    'mr-2 ' +
+                    (this.state.transparent && pageInfo.name === 'index'
+                      ? 'text-dark'
+                      : 'text-white')
+                  }
                 >
                   {intl.formatMessage({ id: 'nav.contact' })}
                 </Nav.Link>
