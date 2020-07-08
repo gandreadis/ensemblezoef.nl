@@ -9,12 +9,12 @@ const Index = ({ intl }) => (
   <Layout pageInfo={{ name: 'index' }}>
     <SEO title="Home" keywords={['zoef', 'ensemble']} />
     <Container>
-      <div className="center-name">
+      <div className="center-name text-white">
         <h1 className="font-italic font-family-body">
           {intl.formatMessage({ id: 'generic.title' })}
         </h1>
-        <p className="text-muted font-italic">
-          {intl.formatMessage({ id: 'index.wip' })}
+        <p className="text-white">
+          {intl.formatMessage({ id: 'index.slogan' })}
         </p>
       </div>
     </Container>

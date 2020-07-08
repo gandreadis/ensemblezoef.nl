@@ -45,7 +45,7 @@ class CustomNavbar extends React.Component {
           bg={
             this.state.transparent && pageInfo.name === 'index'
               ? 'transparent'
-              : 'secondary'
+              : 'primary'
           }
           expand="md"
           id="site-navbar"
@@ -68,12 +68,31 @@ class CustomNavbar extends React.Component {
               <Nav className="ml-auto" activeKey={pageInfo && pageInfo.name}>
                 <Nav.Link
                   href="/contact"
-                  className={
-                    'mr-2 ' +
-                    (this.state.transparent && pageInfo.name === 'index'
-                      ? 'text-dark'
-                      : 'text-white')
-                  }
+                  className="mr-2 text-white"
+                >
+                  {intl.formatMessage({ id: 'nav.about' })}
+                </Nav.Link>
+                <Nav.Link
+                  href="/contact"
+                  className="mr-2 text-white"
+                >
+                  {intl.formatMessage({ id: 'nav.musicians' })}
+                </Nav.Link>
+                <Nav.Link
+                  href="/contact"
+                  className="mr-2 text-white"
+                >
+                  {intl.formatMessage({ id: 'nav.repertoire' })}
+                </Nav.Link>
+                <Nav.Link
+                  href="/contact"
+                  className="mr-2 text-white"
+                >
+                  {intl.formatMessage({ id: 'nav.agenda' })}
+                </Nav.Link>
+                <Nav.Link
+                  href="/contact"
+                  className="mr-2 text-white"
                 >
                   {intl.formatMessage({ id: 'nav.contact' })}
                 </Nav.Link>

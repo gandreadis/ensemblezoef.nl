@@ -55,18 +55,18 @@ const Layout = ({ children, pageInfo }) => (
           <body className="is-fullheight bg-light" />
         </Helmet>
         <Navbar pageInfo={pageInfo} />
-        <div className="is-fullheight main-content text-center">
+        <div className="is-fullheight main-content text-center bg-primary">
           <main>
             {pageInfo.title ? (
               <Container className="mt-5">
-                {pageInfo.title && <h1 className="mt-3">{pageInfo.title}</h1>}
+                {pageInfo.title && <h1 className="mt-3 text-white">{pageInfo.title}</h1>}
                 {children}
               </Container>
             ) : (
               <>{children}</>
             )}
           </main>
-          <div className="bg-light flex-shrink-0">
+          <div className="bg-primary flex-shrink-0">
             <Container>
               <Footer />
             </Container>

@@ -13,7 +13,7 @@ const NotFoundPage = ({ intl }) => (
     }}
   >
     <SEO title={intl.formatMessage({ id: 'contact.title' })} />
-    <a href="mailto:ensemblezoef@gmail.com">ensemblezoef@gmail.com</a>
+    <a href="mailto:ensemblezoef@gmail.com" className="text-white">ensemblezoef@gmail.com</a>
   </Layout>
 )
 

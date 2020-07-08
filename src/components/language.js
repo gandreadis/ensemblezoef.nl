@@ -43,7 +43,7 @@ class LanguageSwitcher extends Component {
         {({ language: currentLocale }) => (
           <Dropdown>
             <Dropdown.Toggle
-              variant="secondary"
+              variant="primary"
               id="language-dropdown"
               className="d-flex h-100 align-items-center"
             >

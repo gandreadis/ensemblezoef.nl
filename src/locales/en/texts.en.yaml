@@ -3,10 +3,15 @@ generic:
   title: ZOEF
 
 nav:
+  book: Book us
+  about: About
+  musicians: Musicians
+  repertoire: Repertoire
+  agenda: Agenda
   contact: Contact
 
 index:
-  wip: More info coming soon!
+  slogan: An energetic breeze
 
 not-found:
   title: Page Not Found
