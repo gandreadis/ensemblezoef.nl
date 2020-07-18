@@ -1,22 +1,36 @@
 ---
 generic:
   title: ZOEF
-
-nav:
-  book: Boek ons
-  about: Over ons
-  musicians: Musici
-  repertoire: Repertoire
-  agenda: Agenda
-  contact: Contact
-
-index:
   slogan: Een energieke windvlaag
+
+jumbotron:
+  cultuurfonds: Wij zijn een van de gelukkige ontvangers van het Prins Bernhard Cultuurmakers fonds! De komende maanden zullen we hiermee een mooie serie van optredens neerzetten.
+
+about:
+  title: Over ons
+  text: |
+    ZOEF is een creatief, creërend collectief. Ieder optreden krijgt een uniek karakter, waarbij de locatie en de context vertaald worden naar een muzikale beleving. We proberen onze omgeving en onszelf te stimuleren om buiten de lijntjes te kleuren. Samen met ons publiek verkennen we verschillende stijlen die wij in onze eigen arrangementen verwerkt hebben.
+
+musicians:
+  title: Musici
+  text: |
+    De van ZOEF bezetting bestaat uit een strijkkwintet, hobo en sopraan. Uniek aan dit ensemble is het feit dat ieder van ons naast een muzikale opleiding ook nog gespecialiseerd is in andere vakgebieden: antropologie, filosofie, geschiedenis, IT, pedagogiek en wiskunde. Bij ZOEF staat de achtergrond van het publiek centraal. Ieder optreden krijgt een uniek karakter, waarbij de locatie en de context vertaald worden naar een muzikale beleving, bestaande uit grotendeels eigen geschreven arrangementen: variërend van klassiek, jazz, volks en pop. Met ons veld aan brede interesses kunnen wij op verschillende manieren bij ons publiek aansluiten en geeft het ons de mogelijkheid vanuit meerdere specialisaties te inspireren.
+
+repertoire:
+  title: Repertoire
+  text: |
+    We hebben een breed repertoire, bestaande uit grotendeels eigen geschreven arrangementen. Hieruit kiezen we voor elk optreden een uniek, toepasselijk programma. We zullen op deze plek binnenkort een lijst van stukken zetten.
+
+agenda:
+  title: Agenda
+  text: Data van optredens volgen snel!
+
+contact:
+  title: Contact
+  text: |
+    Je kunt ons altijd via de mail benaderen. Of het om een potentieel optreden, een vraag of gewoon om een idee gaat: Stuur ons een mail en wij gaan ermee aan de slag!
 
 not-found:
   title: Pagina niet gevonden
   subtitle: Deze pagina bestaat helaas niet.
   action: Terugkeren naar home?
-
-contact:
-  title: Contact

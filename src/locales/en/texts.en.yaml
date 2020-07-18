@@ -1,22 +1,36 @@
 ---
 generic:
   title: ZOEF
-
-nav:
-  book: Book us
-  about: About
-  musicians: Musicians
-  repertoire: Repertoire
-  agenda: Agenda
-  contact: Contact
-
-index:
   slogan: An energetic breeze
+
+jumbotron:
+  cultuurfonds: We are thrilled to announce that we are one of the lucky recipients of the Prins Bernhard Cultuurmakersfonds! This fund will help us set up a special series of performances.
+
+about:
+  title: About
+  text: |
+    ZOEF is een creatief, creërend collectief. Ieder optreden krijgt een uniek karakter, waarbij de locatie en de context vertaald worden naar een muzikale beleving. We proberen onze omgeving en onszelf te stimuleren om buiten de lijntjes te kleuren. Samen met ons publiek verkennen we verschillende stijlen die wij in onze eigen arrangementen verwerkt hebben.
+
+musicians:
+  title: Musicians
+  text: |
+    De van ZOEF bezetting bestaat uit een strijkkwintet, hobo en sopraan. Uniek aan dit ensemble is het feit dat ieder van ons naast een muzikale opleiding ook nog gespecialiseerd is in andere vakgebieden: antropologie, filosofie, geschiedenis, IT, pedagogiek en wiskunde. Bij ZOEF staat de achtergrond van het publiek centraal. Ieder optreden krijgt een uniek karakter, waarbij de locatie en de context vertaald worden naar een muzikale beleving, bestaande uit grotendeels eigen geschreven arrangementen: variërend van klassiek, jazz, volks en pop. Met ons veld aan brede interesses kunnen wij op verschillende manieren bij ons publiek aansluiten en geeft het ons de mogelijkheid vanuit meerdere specialisaties te inspireren.
+
+repertoire:
+  title: Repertoire
+  text: |
+    We have a broad array of custom-made arrangements from many different genres. We will update this space with specific titles soon. Until then: Please do not hesitate to reach out to us for specific requests or questions.
+
+agenda:
+  title: Agenda
+  text: Performance data coming soon!
+
+contact:
+  title: Contact
+  text: |
+    You can contact us anytime. Whether you want to hire us, ask us a question, or send in an idea: Send us an email and we'll get back to you as soon as possible!
 
 not-found:
   title: Page Not Found
   subtitle: This page doesn't seem to exist.
   action: Return home?
-
-contact:
-  title: Contact

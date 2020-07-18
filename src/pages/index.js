@@ -1,24 +1,24 @@
 import React from 'react'
-import { Container } from 'react-bootstrap'
-import { injectIntl } from 'gatsby-plugin-intl'
 
-import Layout from '../components/layout'
-import SEO from '../components/seo'
+import Layout from '../components/Layout'
+import SEO from '../components/SEO'
+import ContactSection from '../sections/ContactSection'
+import AboutSection from '../sections/AboutSection'
+import MusiciansSection from '../sections/MusiciansSection'
+import RepertoireSection from '../sections/RepertoireSection'
+import AgendaSection from '../sections/AgendaSection'
+import JumbotronSection from '../sections/JumbotronSection'
 
-const Index = ({ intl }) => (
+const Index = () => (
   <Layout pageInfo={{ name: 'index' }}>
     <SEO title="Home" keywords={['zoef', 'ensemble']} />
-    <Container>
-      <div className="center-name text-white">
-        <h1 className="font-italic font-family-body">
-          {intl.formatMessage({ id: 'generic.title' })}
-        </h1>
-        <p className="text-white">
-          {intl.formatMessage({ id: 'index.slogan' })}
-        </p>
-      </div>
-    </Container>
+    <JumbotronSection/>
+    <AboutSection />
+    <MusiciansSection />
+    <RepertoireSection />
+    <AgendaSection />
+    <ContactSection />
   </Layout>
 )
 
-export default injectIntl(Index)
+export default Index

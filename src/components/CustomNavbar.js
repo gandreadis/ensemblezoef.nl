@@ -1,9 +1,10 @@
 import React from 'react'
 import { injectIntl, Link } from 'gatsby-plugin-intl'
+import Scrollspy from 'react-scrollspy'
 
 import { Nav, Navbar } from 'react-bootstrap'
 import Container from 'react-bootstrap/Container'
-import LanguageSwitcher from './language'
+import LanguageSwitcher from './LanguageSwitcher'
 import * as PropTypes from 'prop-types'
 
 class CustomNavbar extends React.Component {
@@ -39,6 +40,14 @@ class CustomNavbar extends React.Component {
   render() {
     let { pageInfo, intl } = this.props
 
+    const NavContainer = ({ children }) => (
+      <Nav className="ml-auto">
+        {children}
+      </Nav>
+    )
+
+    const navItems = ['about', 'musicians', 'repertoire', 'agenda', 'contact']
+
     return (
       <>
         <Navbar
@@ -65,39 +74,28 @@ class CustomNavbar extends React.Component {
             </Link>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
-              <Nav className="ml-auto" activeKey={pageInfo && pageInfo.name}>
-                <Nav.Link
-                  href="/contact"
-                  className="mr-2 text-white"
-                >
-                  {intl.formatMessage({ id: 'nav.about' })}
+              <Scrollspy
+                items={navItems}
+                currentClassName="font-family-header"
+                componentTag={NavContainer}
+              >
+                <Nav.Link href="#about" className="mr-2 text-white">
+                  {intl.formatMessage({ id: 'about.title' })}
                 </Nav.Link>
-                <Nav.Link
-                  href="/contact"
-                  className="mr-2 text-white"
-                >
-                  {intl.formatMessage({ id: 'nav.musicians' })}
+                <Nav.Link href="#musicians" className="mr-2 text-white">
+                  {intl.formatMessage({ id: 'musicians.title' })}
                 </Nav.Link>
-                <Nav.Link
-                  href="/contact"
-                  className="mr-2 text-white"
-                >
-                  {intl.formatMessage({ id: 'nav.repertoire' })}
+                <Nav.Link href="#repertoire" className="mr-2 text-white">
+                  {intl.formatMessage({ id: 'repertoire.title' })}
                 </Nav.Link>
-                <Nav.Link
-                  href="/contact"
-                  className="mr-2 text-white"
-                >
-                  {intl.formatMessage({ id: 'nav.agenda' })}
+                <Nav.Link href="#agenda" className="mr-2 text-white">
+                  {intl.formatMessage({ id: 'agenda.title' })}
                 </Nav.Link>
-                <Nav.Link
-                  href="/contact"
-                  className="mr-2 text-white"
-                >
-                  {intl.formatMessage({ id: 'nav.contact' })}
+                <Nav.Link href="#contact" className="mr-2 text-white">
+                  {intl.formatMessage({ id: 'contact.title' })}
                 </Nav.Link>
                 <LanguageSwitcher />
-              </Nav>
+              </Scrollspy>
             </Navbar.Collapse>
           </Container>
         </Navbar>

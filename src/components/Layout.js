@@ -10,11 +10,11 @@ import { graphql, StaticQuery } from 'gatsby'
 
 import { Container } from 'react-bootstrap'
 
-import Navbar from './navbar'
+import Navbar from './CustomNavbar'
 
 import '../styles/style.scss'
 import { Helmet } from 'react-helmet'
-import Footer from './footer'
+import Footer from './Footer'
 
 const Layout = ({ children, pageInfo }) => (
   <StaticQuery
@@ -51,27 +51,28 @@ const Layout = ({ children, pageInfo }) => (
           <meta name="msapplication-config" content="/browserconfig.xml" />
           <meta name="theme-color" content="#f07f03" />
 
-          <html className="is-fullheight" lang="nl" />
-          <body className="is-fullheight bg-light" />
+          <html className="is-fullheight bg-primary" lang="nl" />
+          <body className="is-fullheight" />
         </Helmet>
         <Navbar pageInfo={pageInfo} />
-        <div className="is-fullheight main-content text-center bg-primary">
-          <main>
-            {pageInfo.title ? (
+        {pageInfo.title ? (
+          <div className="is-fullheight main-content text-center text-white bg-primary">
+            <main>
               <Container className="mt-5">
-                {pageInfo.title && <h1 className="mt-3 text-white">{pageInfo.title}</h1>}
+                <h1 className="mt-3">{pageInfo.title}</h1>
                 {children}
               </Container>
-            ) : (
-              <>{children}</>
-            )}
-          </main>
-          <div className="bg-primary flex-shrink-0">
-            <Container>
+            </main>
+            <div className="flex-shrink-0">
               <Footer />
-            </Container>
+            </div>
           </div>
-        </div>
+        ) : (
+          <div className="is-fullheight text-center text-white bg-primary">
+            {children}
+            <Footer />
+          </div>
+        )}
       </>
     )}
   />
