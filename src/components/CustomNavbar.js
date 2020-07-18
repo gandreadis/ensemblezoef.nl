@@ -41,9 +41,7 @@ class CustomNavbar extends React.Component {
     let { pageInfo, intl } = this.props
 
     const NavContainer = ({ children }) => (
-      <Nav className="ml-auto">
-        {children}
-      </Nav>
+      <Nav className="ml-auto">{children}</Nav>
     )
 
     const navItems = ['about', 'musicians', 'repertoire', 'agenda', 'contact']

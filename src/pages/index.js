@@ -12,7 +12,7 @@ import JumbotronSection from '../sections/JumbotronSection'
 const Index = () => (
   <Layout pageInfo={{ name: 'index' }}>
     <SEO title="Home" keywords={['zoef', 'ensemble']} />
-    <JumbotronSection/>
+    <JumbotronSection />
     <AboutSection />
     <MusiciansSection />
     <RepertoireSection />

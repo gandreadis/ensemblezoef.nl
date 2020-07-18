@@ -6,7 +6,7 @@ import Section from './Section'
 
 const AgendaSection = ({ intl }) => (
   <Section id="agenda">
-    <p>{intl.formatMessage({id: 'agenda.text'})}</p>
+    <p>{intl.formatMessage({ id: 'agenda.text' })}</p>
   </Section>
 )
 

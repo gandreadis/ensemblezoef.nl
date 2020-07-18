@@ -6,7 +6,7 @@ import Section from './Section'
 
 const RepertoireSection = ({ intl }) => (
   <Section id="repertoire">
-    <p>{intl.formatMessage({id: 'repertoire.text'})}</p>
+    <p>{intl.formatMessage({ id: 'repertoire.text' })}</p>
   </Section>
 )
 

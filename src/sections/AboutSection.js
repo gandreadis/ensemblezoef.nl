@@ -6,7 +6,9 @@ import Section from './Section'
 
 const AboutSection = ({ intl }) => (
   <Section id="about">
-    <p className="font-size-large">{intl.formatMessage({ id: 'about.text' })}</p>
+    <p className="font-size-large">
+      {intl.formatMessage({ id: 'about.text' })}
+    </p>
   </Section>
 )
 
