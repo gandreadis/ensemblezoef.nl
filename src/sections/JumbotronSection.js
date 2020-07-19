@@ -4,11 +4,11 @@ import { Container } from 'react-bootstrap'
 import { motion } from 'framer-motion'
 
 const JumbotronSection = ({ intl }) => (
-  <Container className="h-100">
+  <Container className="jumbotron-container">
     <motion.div
       className="center-name"
       animate={{ left: '50%' }}
-      transition={{ delay: 1 }}
+      transition={{ delay: 0.5 }}
     >
       <h1 className="font-italic font-family-body">
         {intl.formatMessage({ id: 'generic.title' })}

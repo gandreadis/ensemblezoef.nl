@@ -10,6 +10,7 @@ module.exports = {
     `gatsby-plugin-sass`,
     `gatsby-plugin-remove-trailing-slashes`,
     `gatsby-plugin-sitemap`,
+    `gatsby-plugin-anchor-links`,
     `gatsby-plugin-catch-links`,
     {
       resolve: `gatsby-plugin-intl`,

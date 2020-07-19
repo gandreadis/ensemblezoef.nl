@@ -1,6 +1,6 @@
 // Fill the full height of page
 .is-fullheight, #___gatsby, #gatsby-focus-wrapper {
-  height: 100% !important;
+  min-height: 100%;
 }
 
 // Expanding main content
