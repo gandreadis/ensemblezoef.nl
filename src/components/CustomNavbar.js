@@ -15,6 +15,7 @@ class CustomNavbar extends React.Component {
   }
 
   componentDidMount() {
+    this.checkScrollState();
     this.listener = document.addEventListener('scroll', () => {
       this.checkScrollState()
     })
