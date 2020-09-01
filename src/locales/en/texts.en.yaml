@@ -7,14 +7,24 @@ jumbotron:
   cultuurfonds: We are thrilled to announce that we are one of the lucky recipients of the Prins Bernhard Cultuurmakersfonds! This fund will help us set up a special series of performances.
 
 about:
-  title: About
+  title: About us
   text: |
-    ZOEF is a creative, creating collective. Every performance has a unique character, transforming the location and context into a musical expierence. We try to push our environment and ourselves to move boundaries. Together with our audience, we explore different styles with arrangements tailored to our ensemble.
+    ZOEF is a **creative**, **creating** collective. Every performance has a unique character, transforming the location and context into a musical expierence. We try to push our environment and ourselves to move boundaries. Together with our audience, we explore different styles with arrangements tailored to our ensemble.
 
 musicians:
   title: Musicians
   text: |
-    The ZOEF ensemble consists of a string quintet, oboe and soprano. Unique to this ensemble is the fact that each of us is specialized in different fields next to their education as musician: anthropology, philosophy, history, IT, pedagogy and mathematics. With our broad field of interests, we can connect to our audience in many different ways and inspire from different perspectives and specializations.
+    The ZOEF ensemble consists of a **string quintet, oboe and soprano**. Unique to this ensemble is the fact that each of us is specialized in different fields next to their education as musician: anthropology, philosophy, history, IT, pedagogy and mathematics. With our broad field of interests, we can connect to our audience in many different ways and inspire from different perspectives and specializations.
+  gallery:
+    title: Meet our musicians
+    occupations:
+      maud: oboist and philosopher
+      stijn: violinist and historian
+      nina: violinist and pedagogue in training
+      georgios: violist and IT engineer
+      liutauras: cellist and mathematician
+      orrin: bass player and IT engineer
+      janneke: singer, violinist and anthropologist in training
 
 repertoire:
   title: Repertoire

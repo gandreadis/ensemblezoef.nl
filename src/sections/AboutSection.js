@@ -1,14 +1,15 @@
 import React from 'react'
 
 import { injectIntl } from 'gatsby-plugin-intl'
+import Markdown from 'react-remarkable'
 
 import Section from './Section'
 
 const AboutSection = ({ intl }) => (
   <Section id="about">
-    <p className="font-size-large">
-      {intl.formatMessage({ id: 'about.text' })}
-    </p>
+    <div className="font-size-large">
+      <Markdown>{intl.formatMessage({ id: 'about.text' })}</Markdown>
+    </div>
   </Section>
 )
 
