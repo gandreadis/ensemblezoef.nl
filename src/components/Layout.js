@@ -44,6 +44,8 @@ const Layout = ({ children, pageInfo }) => (
           <meta name="msapplication-config" content="/browserconfig.xml" />
           <meta name="theme-color" content="#f07f03" />
 
+          <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet"/>
+
           <html className="is-fullheight bg-primary" lang="nl" />
           <body className="is-fullheight" />
         </Helmet>
