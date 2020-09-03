@@ -20,6 +20,7 @@
     "gatsby-plugin-sitemap": "2.4.11",
     "gatsby-source-filesystem": "2.3.22",
     "js-yaml": "3.14.0",
+    "moment": "^2.27.0",
     "node-sass": "4.14.1",
     "prop-types": "15.7.2",
     "react": "16.13.1",
