@@ -1,0 +1,86 @@
+---
+pieces:
+  carnaval-saint-saens:
+    title: Carnaval des Animaux
+    composer: Saint-Saëns
+    arranger: Nina Zuure, Orrin van Leeuwen and Maud Busschers
+
+  cavatina-beethoven:
+    title: Cavatina (from string quartet 13)
+    composer: Beethoven
+
+  oboe-violin-bach:
+    title: Concerto for Oboe and Violin (BWV 1060R)
+    composer: Bach
+
+  cinema-paradiso-morricone:
+    title: Cinema Paradiso
+    composer: Morricone
+
+  czardas-monti:
+    title: Czardas
+    composer: Monti
+    arranger: Nina Zuure
+
+  dolce-riposo-handel:
+    title: Dolce Riposo
+    composer: Handel
+
+  oboe-sonata-saint-saens:
+    title: Sonata for Oboe and String Quintet
+    composer: Saint-Saëns
+    arranger: Maud Busschers
+
+  genug-bach:
+    title: Ich Habe Genug
+    composer: Bach
+    arranger: Maud Busschers
+
+  reve-faure:
+    title: Après un rêve
+    composer: Fauré
+    arranger: Maud Busschers
+
+  kol-nidrei-bruch:
+    title: Kol Nidrei
+    composer: Bruch
+
+  meditation-suk:
+    title: Meditation on an Old Choral
+    composer: Suk
+
+  natzurka-accordzeam:
+    title: Natzurka
+    composer: d’Accordzeam
+    arranger: Maud Busschers
+
+  nocturne-kachaturian:
+    title: Nocturne
+    composer: Kachaturian
+    arranger: Maud Busschers
+
+  oblivion-piazzolla:
+    title: Oblivion
+    composer: Piazzolla
+    arranger: Maud Busschers
+
+  pie-jesu-faure:
+    title: Pie Jesu
+    composer: Fauré
+
+  plink-plank-plunk-anderson:
+    title: Plink Plank Plunk
+    composer: Anderson
+
+  studies-folksong-williams:
+    title: Studies for English Folksong
+    composer: Williams
+
+  waltzy-lockwood:
+    title: Waltzy
+    composer: Lockwood
+
+  laid-purcell:
+    title: When I'm Laid in Earth
+    composer: Purcell
+    arranger: Maud Busschers
