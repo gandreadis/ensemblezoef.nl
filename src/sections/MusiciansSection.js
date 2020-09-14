@@ -17,7 +17,7 @@ const Musician = ({ name, id, intl }) => (
 const MusiciansSection = ({ intl }) => (
   <Section id="musicians">
     <Markdown>{intl.formatMessage({ id: 'musicians.text' })}</Markdown>
-    <h4 className="text-center mt-4">
+    <h4 className="text-center mt-3">
       {intl.formatMessage({ id: 'musicians.gallery.title' })}
     </h4>
     <div className="row">
