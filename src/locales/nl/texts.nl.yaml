@@ -9,7 +9,9 @@ jumbotron:
 about:
   title: Over ons
   text: |
-    ZOEF is een **creatief**, **creërend** collectief. Ieder optreden krijgt een uniek karakter, waarbij de locatie en de context vertaald worden naar een muzikale beleving. We proberen onze omgeving en onszelf te stimuleren om buiten de lijntjes te kleuren. Samen met ons publiek verkennen we verschillende stijlen die wij in onze eigen arrangementen verwerkt hebben.
+    ZOEF is een **creatief**, **creërend** collectief. Ieder optreden krijgt een eigen karakter, waarbij de locatie en de context vertaald worden naar een muzikale beleving. We proberen onze omgeving en onszelf te stimuleren om buiten de lijntjes te kleuren. Samen met ons publiek verkennen we verschillende stijlen die wij in onze eigen arrangementen verwerkt hebben.
+
+    Vanuit ons basis-repertoire (o.a. Bach, Britten, Fauré, Piazzolla, Purcell, Vaughan Williams en verschillende bewerkingen van jazz-, klezmer- en volksmuziek) bouwen we per locatie een andere voorstelling op waarbij het publiek onze inspiratiebron is. Door vooronderzoek te doen op de specifieke locaties komen we vaak tot thema’s die de voorstelling zullen gaan bepalen.
 
 musicians:
   title: Musici
@@ -18,7 +20,7 @@ musicians:
   gallery:
     title: Leer onze musici kennen
     occupations:
-      maud: hoboïste en filosoof
+      maud: hoboïste en filosofe
       stijn: violist en geschiedkundige
       nina: violiste en pedagoge in spé
       georgios: violist en IT’er

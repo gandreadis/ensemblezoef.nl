@@ -3,11 +3,7 @@ import { injectIntl } from 'gatsby-plugin-intl'
 import { Container } from 'react-bootstrap'
 import { motion } from 'framer-motion'
 
-import {
-  FaYoutube,
-  FaInstagram,
-  FaFacebook,
-} from 'react-icons/fa'
+import { FaYoutube, FaInstagram, FaFacebook } from 'react-icons/fa'
 
 const JumbotronSection = ({ intl }) => (
   <Container className="jumbotron-container">
@@ -19,7 +15,9 @@ const JumbotronSection = ({ intl }) => (
       <h1 className="font-italic font-family-body">
         {intl.formatMessage({ id: 'generic.title' })}
       </h1>
-      <p className="lead mb-3">{intl.formatMessage({ id: 'generic.slogan' })}</p>
+      <p className="lead mb-3">
+        {intl.formatMessage({ id: 'generic.slogan' })}
+      </p>
       <p>
         <a
           href="https://www.instagram.com/ensemblezoef/"
