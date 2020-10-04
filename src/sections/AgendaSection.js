@@ -24,12 +24,12 @@ const AgendaSection = ({ intl }) => (
             <div className="col-12 col-sm-8 col-md-10 text-left">
               <h4>
                 {intl.formatMessage({
-                  id: `agenda.performances.${p.id}.location`,
+                  id: `performances.${p.id}.location`,
                 })}
               </h4>
               <Markdown>
                 {intl.formatMessage({
-                  id: `agenda.performances.${p.id}.description`,
+                  id: `performances.${p.id}.description`,
                 })}
               </Markdown>
             </div>

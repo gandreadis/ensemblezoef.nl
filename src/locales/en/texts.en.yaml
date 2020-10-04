@@ -36,19 +36,6 @@ repertoire:
 agenda:
   title: Agenda
   text: We are still busy scheduling performances! Below you can see the performances that are already planned. Check back later for more!
-  performances:
-    carechangers-2020:
-      location: Carechangers congress
-      description: |
-        Congress for health insurers, where we will perform a custom-tailored musical performance. The current coronavirus crisis has placed a heavy burden on the shoulders of healthcare professionals. At this congress, the transformation happening within healthcare is central: local health insurers want to revitalize healthcare from within, taking the patient as the center of focus.
-
-        _Date still subject to change due to measures surrounding the coronavirus_
-    schreuderschool-2020:
-      location: P.H. Schreuderschool
-      description: |
-        At this school for children with special needs, we will deliver a unique performance with animal-theme. With the help of several custom-made arrangements of Carnaval des Animaux, we will take the children on a musical safari.
-
-        _Date still subject to change due to measures surrounding the coronavirus_
 
 contact:
   title: Contact

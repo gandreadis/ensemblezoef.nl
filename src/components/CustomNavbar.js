@@ -7,6 +7,8 @@ import Container from 'react-bootstrap/Container'
 import LanguageSwitcher from './LanguageSwitcher'
 import * as PropTypes from 'prop-types'
 
+import zoefImage from './zoef-white.png'
+
 class CustomNavbar extends React.Component {
   constructor(props) {
     super(props)
@@ -67,8 +69,13 @@ class CustomNavbar extends React.Component {
                   this.state.transparent && pageInfo.name === 'index' ? 0 : 1,
               }}
             >
-              <Navbar.Brand as="span" className="text-light font-italic">
-                {intl.formatMessage({ id: 'generic.title' })}
+              <Navbar.Brand>
+                <img
+                  src={zoefImage}
+                  height="30"
+                  className="d-inline-block align-top"
+                  alt="ZOEF"
+                />
               </Navbar.Brand>
             </Link>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />

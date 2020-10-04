@@ -13,7 +13,7 @@ const ContactSection = ({ intl }) => (
       href="mailto:ensemblezoef@gmail.com"
       className="mr-2 btn btn-light text-primary"
     >
-      <FaEnvelope size={32} className="mr-2" />
+      <FaEnvelope size={28} className="mr-2" />
       Email
     </a>
     <a
@@ -22,17 +22,17 @@ const ContactSection = ({ intl }) => (
       rel="noreferrer"
       className="mr-md-2 btn btn-light text-primary"
     >
-      <FaInstagram size={32} className="mr-2" />
+      <FaInstagram size={28} className="mr-2" />
       Instagram
     </a>
-    <br className="d-block d-md-none"/>
+    <br className="d-block d-md-none" />
     <a
       href="https://www.facebook.com/ensemblezoef/"
       target="_blank"
       rel="noreferrer"
       className="mr-2 mt-2 mt-md-0 btn btn-light text-primary"
     >
-      <FaFacebook size={32} className="mr-2" />
+      <FaFacebook size={28} className="mr-2" />
       Facebook
     </a>
     <a
@@ -41,7 +41,7 @@ const ContactSection = ({ intl }) => (
       rel="noreferrer"
       className="mr-md-2 mt-2 mt-md-0 btn btn-light text-primary"
     >
-      <FaYoutube size={32} className="mr-2" />
+      <FaYoutube size={28} className="mr-2" />
       YouTube
     </a>
   </Section>

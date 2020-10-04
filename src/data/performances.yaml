@@ -1,10 +1,16 @@
 ---
-- id: carechangers-2020
-  date: 2020-10-04
-  city: Arnhem
+- id: hml-2020
+  date: 2020-10-13
+  city: Den Haag
+  private: true
+  num-performances: 3
+
+- id: schreuderschool-2021
+  date: 2021-03-08
+  city: Den Haag
   private: true
 
-- id: schreuderschool-2020
-  date: 2020-03-08
-  city: Den Haag
+- id: carechangers-2021
+  date: 2021-04-01
+  city: Arnhem
   private: true
