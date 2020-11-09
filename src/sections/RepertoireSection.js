@@ -29,20 +29,24 @@ const RepertoireSection = ({ intl }) => (
         <RepertoireItem id="genug-bach" intl={intl} />
         <RepertoireItem id="oboe-violin-bach" intl={intl} />
         <RepertoireItem id="cavatina-beethoven" intl={intl} />
+        <RepertoireItem id="hungarian-dance-brahms" intl={intl} />
         <RepertoireItem id="kol-nidrei-bruch" intl={intl} />
+        <RepertoireItem id="room-dreamers" intl={intl} />
         <RepertoireItem id="pie-jesu-faure" intl={intl} />
         <RepertoireItem id="reve-faure" intl={intl} />
         <RepertoireItem id="dolce-riposo-handel" intl={intl} />
         <RepertoireItem id="nocturne-kachaturian" intl={intl} />
+        <RepertoireItem id="waltzy-lockwood" intl={intl} />
       </div>
       <div className="col-12 col-md-6">
-        <RepertoireItem id="waltzy-lockwood" intl={intl} />
         <RepertoireItem id="cinema-paradiso-morricone" intl={intl} />
         <RepertoireItem id="czardas-monti" intl={intl} />
+        <RepertoireItem id="freilach-folk" intl={intl} />
         <RepertoireItem id="oblivion-piazzolla" intl={intl} />
         <RepertoireItem id="laid-purcell" intl={intl} />
         <RepertoireItem id="carnaval-saint-saens" intl={intl} />
         <RepertoireItem id="oboe-sonata-saint-saens" intl={intl} />
+        <RepertoireItem id="own-home-disney" intl={intl} />
         <RepertoireItem id="meditation-suk" intl={intl} />
         <RepertoireItem id="studies-folksong-williams" intl={intl} />
       </div>

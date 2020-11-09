@@ -1,9 +1,24 @@
 ---
 performances:
-  hml-2020:
+  hml-2020-1:
     location: Haags Montessori Lyceum
     description: |
-      At this school, we will give three educational performances, on the 13th and 15th of October.
+      At this school, we gave a series educational performances, featuring a unique composition workshop where we gave the children the opportunity to build their own music piece, as a group. On this first day, we gave two performances for two different age groups.
+
+  hml-2020-2:
+    location: Haags Montessori Lyceum
+    description: |
+      At this school, we gave a series educational performances, featuring a unique composition workshop where we gave the children the opportunity to build their own music piece, as a group. On this second day, we gave one performance.
+
+  heeze-2020:
+    location: Crematorium Heeze
+    description: |
+      We performed a selection of our repertoire at a funeral near Eindhoven, to lend strength to the attendees.
+
+  ita-2020:
+    location: Internationaal Theater Amsterdam
+    description: |
+      We were a part of the "Time Out" theatre performance, performing a specially arranged song.
 
   schreuderschool-2021:
     location: P.H. Schreuderschool

@@ -45,12 +45,6 @@ const JumbotronSection = ({ intl }) => (
         </a>
       </p>
     </motion.div>
-    <img
-      className="cultuurfonds-icon"
-      src="/cultuurfonds-logo.png"
-      alt={intl.formatMessage({ id: 'jumbotron.cultuurfonds' })}
-      width={150}
-    />
   </Container>
 )
 

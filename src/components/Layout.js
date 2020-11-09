@@ -41,6 +41,7 @@ const Layout = ({ children, pageInfo }) => (
             href="/favicon-16x16.png"
           />
           <link rel="shortcut icon" href="/favicon.ico" />
+          <link rel="manifest" href="/site.webmanifest" />
           <meta name="msapplication-config" content="/browserconfig.xml" />
           <meta name="theme-color" content="#f07f03" />
 

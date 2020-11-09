@@ -1,9 +1,24 @@
 ---
 performances:
-  hml-2020:
+  hml-2020-1:
     location: Haags Montessori Lyceum
     description: |
-      Op deze school zullen we drie educatieve voorstellingen geven, op 13 en 15 oktober.
+      Op deze middelbare school hebben we een serie educatieve voorstellingen gegeven, met als belangrijk onderdeel een compositieworkshop die de kinderen het plezier van muziek bedenken en maken liet ervaren. Op de eerste dag gaven we twee optredens.
+
+  hml-2020-2:
+    location: Haags Montessori Lyceum
+    description: |
+      Op deze middelbare school hebben we een serie educatieve voorstellingen gegeven, met als belangrijk onderdeel een compositieworkshop die de kinderen het plezier van muziek bedenken en maken liet ervaren. Op deze tweede dag hebben we een optreden gegeven.
+
+  heeze-2020:
+    location: Crematorium Heeze
+    description: |
+      Op een uitvaart in het crematorium van Heeze (nabij Eindhoven) zorgden wij voor een muzikale bijdrage.
+
+  ita-2020:
+    location: Internationaal Theater Amsterdam
+    description: |
+      Een afvaardiging van ZOEF speelde mee in de "Time Out" theatervoorstelling, met een speciaal hiervoor gearrangeerd lied.
 
   schreuderschool-2021:
     location: P.H. Schreuderschool

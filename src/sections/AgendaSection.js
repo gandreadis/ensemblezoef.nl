@@ -12,29 +12,37 @@ const AgendaSection = ({ intl }) => (
   <Section id="agenda">
     <p className="mb-3">{intl.formatMessage({ id: 'agenda.text' })}</p>
     <div>
-      {performances
-        .filter((p) => moment(p.date).isAfter(moment().subtract(1, 'days')))
-        .map((p) => (
-          <div className="row mb-2">
-            <div className="col-12 col-sm-4 col-md-2 text-right">
-              {moment(p.date).format('DD/MM/YYYY')}
-              <br />
-              {p.city}
-            </div>
-            <div className="col-12 col-sm-8 col-md-10 text-left">
-              <h4>
-                {intl.formatMessage({
-                  id: `performances.${p.id}.location`,
-                })}
-              </h4>
-              <Markdown>
-                {intl.formatMessage({
-                  id: `performances.${p.id}.description`,
-                })}
-              </Markdown>
-            </div>
+      {performances.map((p) => (
+        <div className="row mb-2">
+          <div className="col-12 col-sm-4 col-md-2 text-right">
+            {moment(p.date).format('DD/MM/YYYY')}
+            <br />
+            {p.city}
+            {moment(p.date).isBefore(moment().add(1, 'days')) ? (
+              <>
+                <br />
+                <em>
+                  {intl.formatMessage({
+                    id: `agenda.past-event`,
+                  })}
+                </em>
+              </>
+            ) : undefined}
           </div>
-        ))}
+          <div className="col-12 col-sm-8 col-md-10 text-left">
+            <h4>
+              {intl.formatMessage({
+                id: `performances.${p.id}.location`,
+              })}
+            </h4>
+            <Markdown>
+              {intl.formatMessage({
+                id: `performances.${p.id}.description`,
+              })}
+            </Markdown>
+          </div>
+        </div>
+      ))}
     </div>
   </Section>
 )

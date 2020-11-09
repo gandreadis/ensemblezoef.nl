@@ -35,7 +35,8 @@ repertoire:
 
 agenda:
   title: Agenda
-  text: We are still busy scheduling performances! Below you can see the performances that are already planned. Check back later for more!
+  text: Performances we have given or will give. More to come - check back later for more!
+  past-event: Past event
 
 contact:
   title: Contact

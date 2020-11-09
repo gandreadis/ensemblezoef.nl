@@ -1,9 +1,24 @@
 ---
-- id: hml-2020
+- id: hml-2020-1
   date: 2020-10-13
   city: Den Haag
   private: true
-  num-performances: 3
+  num-performances: 2
+
+- id: hml-2020-2
+  date: 2020-10-15
+  city: Den Haag
+  private: true
+
+- id: heeze-2020
+  date: 2020-10-24
+  city: Heeze
+  private: true
+
+- id: ita-2020
+  date: 2020-11-02
+  city: Amsterdam
+  private: false
 
 - id: schreuderschool-2021
   date: 2021-03-08
