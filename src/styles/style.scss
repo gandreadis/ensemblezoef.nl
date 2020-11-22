@@ -6,3 +6,9 @@
 @import "navbar";
 @import "jumbotron";
 @import "musicians";
+
+// Links in text
+p a {
+  color: $white;
+  font-weight: bold;
+}

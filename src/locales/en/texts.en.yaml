@@ -25,7 +25,7 @@ musicians:
       nina: violinist and pedagogue
       georgios: violist and IT engineer
       liutauras: cellist and mathematician
-      orrin: bass player and IT engineer
+      orrin: bass player and IT engineer in training
       janneke: singer, violinist and anthropologist in training
 
 repertoire:
@@ -42,6 +42,8 @@ contact:
   title: Contact
   text: |
     You can contact us anytime! Send us an email or reach out to us through our social media:
+  telephone: |
+    If you prefer to call, you can reach us at: [06 12685146](tel:+31612685146)
 
 not-found:
   title: Page Not Found

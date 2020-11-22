@@ -3,6 +3,7 @@ import React from 'react'
 import { injectIntl } from 'gatsby-plugin-intl'
 
 import { FaEnvelope, FaFacebook, FaInstagram, FaYoutube } from 'react-icons/fa'
+import Markdown from 'react-remarkable'
 
 import Section from './Section'
 
@@ -44,6 +45,9 @@ const ContactSection = ({ intl }) => (
       <FaYoutube size={28} className="mr-2" />
       YouTube
     </a>
+    <p className="mt-3">
+      <Markdown>{intl.formatMessage({ id: 'contact.telephone' })}</Markdown>
+    </p>
   </Section>
 )
 

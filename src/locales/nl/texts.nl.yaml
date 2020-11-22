@@ -16,16 +16,16 @@ about:
 musicians:
   title: Musici
   text: |
-    De bezetting van ZOEF bestaat uit een **strijkkwintet, hobo en sopraan**. Uniek aan dit ensemble is het feit dat ieder van ons naast een muzikale opleiding ook nog gespecialiseerd is in andere vakgebieden: antropologie, filosofie, geschiedenis, IT, pedagogiek en wiskunde. Met ons veld aan brede interesses kunnen wij op verschillende manieren bij ons publiek aansluiten en geeft het ons de mogelijkheid vanuit meerdere specialisaties te inspireren.
+    De bezetting van ZOEF bestaat uit een **strijkkwintet, (alt)hobo en sopraan**. Uniek aan dit ensemble is het feit dat ieder van ons naast een muzikale opleiding ook nog gespecialiseerd is in andere vakgebieden: antropologie, filosofie, geschiedenis, IT, pedagogiek en wiskunde. Met ons veld aan brede interesses kunnen wij op verschillende manieren bij ons publiek aansluiten en geeft het ons de mogelijkheid vanuit meerdere specialisaties te inspireren.
   gallery:
     title: Leer onze musici kennen
     occupations:
-      maud: hoboïste en filosofe
+      maud: (alt)hoboïste en filosofe
       stijn: violist en geschiedkundige
       nina: violiste en pedagoge
-      georgios: violist en IT’er
+      georgios: altviolist en IT’er
       liutauras: cellist en wiskundige
-      orrin: bassist en IT’er
+      orrin: bassist en IT’er in spé
       janneke: zangeres, violiste en antropologe in spé
 
 repertoire:
@@ -42,6 +42,8 @@ contact:
   title: Contact
   text: |
     Je kunt ons altijd via de mail of via een van onze social media benaderen:
+  telephone: |
+    Telefonisch zijn we te bereiken via: [06 12685146](tel:+31612685146)
 
 not-found:
   title: Pagina niet gevonden
