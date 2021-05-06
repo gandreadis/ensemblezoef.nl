@@ -92,7 +92,7 @@ function SEO({ description, lang, meta, keywords, title }) {
 SEO.defaultProps = {
   lang: `nl`,
   meta: [],
-  keywords: [],
+  keywords: ['zoef', 'ensemble', 'muziek', 'zoefensemble', 'ensemblezoef'],
   description: ``,
 }
 
