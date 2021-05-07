@@ -44,11 +44,13 @@ const Layout = ({ children, pageInfo }) => (
           <link rel="manifest" href="/site.webmanifest" />
           <meta name="msapplication-config" content="/browserconfig.xml" />
           <meta name="theme-color" content="#f07f03" />
-          <script type='text/javascript'>
-            if (window.location.hostname == "zoefensemble.nl") {
+          <script type='text/javascript' dangerouslySetInnerHTML={{
+    __html: `
+      if (window.location.hostname == "zoefensemble.nl") {
               window.location.replace("https://ensemblzoef.nl");
             }
-          </script>
+    `,
+  }}/>
 
           <link
             href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,700&display=swap"
