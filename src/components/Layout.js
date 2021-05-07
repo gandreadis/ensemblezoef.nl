@@ -46,6 +46,7 @@ const Layout = ({ children, pageInfo }) => (
           <meta name="theme-color" content="#f07f03" />
           <script type='text/javascript' dangerouslySetInnerHTML={{
     __html: `
+      console.log("test");
       if (window.location.hostname == "zoefensemble.nl") {
               window.location.replace("https://ensemblzoef.nl");
             }
