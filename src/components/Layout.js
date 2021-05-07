@@ -44,14 +44,6 @@ const Layout = ({ children, pageInfo }) => (
           <link rel="manifest" href="/site.webmanifest" />
           <meta name="msapplication-config" content="/browserconfig.xml" />
           <meta name="theme-color" content="#f07f03" />
-          <script type='text/javascript' dangerouslySetInnerHTML={{
-    __html: `
-      console.log("test");
-      if (window.location.hostname == "zoefensemble.nl") {
-              window.location.replace("https://ensemblzoef.nl");
-            }
-    `,
-  }}/>
 
           <link
             href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,700&display=swap"
@@ -62,6 +54,14 @@ const Layout = ({ children, pageInfo }) => (
           <body className="is-fullheight" />
         </Helmet>
         <Navbar pageInfo={pageInfo} />
+        <Helmet>
+          <script dangerouslySetInnerHTML={{ __html: `
+      console.log("test");
+      if (window.location.hostname == "zoefensemble.nl") {
+              window.location.replace("https://ensemblzoef.nl");
+            }
+    ` }}/>
+        </Helmet>
         {pageInfo.title ? (
           <div className="is-fullheight main-content text-center text-white bg-primary">
             <main>
