@@ -44,7 +44,7 @@ const MusiciansSection = ({ intl }) => (
       <Musician id="stijn" name="Stijn Brinkman" intl={intl} />
       <Musician id="nina" name="Nina Zuure" intl={intl} />
       <Musician id="georgios" name="Georgios Andreadis" intl={intl} />
-      <Musician id="liutauras" name="Liutauras Zilaitas" intl={intl} />
+      <Musician id="liutauras" name="Liutauras Žilaitis" intl={intl} />
       <Musician id="orrin" name="Orrin van Leeuwen" intl={intl} />
       <Musician id="janneke" name="Janneke Stoute" intl={intl} />
     </div>
