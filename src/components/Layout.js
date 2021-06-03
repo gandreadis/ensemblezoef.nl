@@ -54,14 +54,6 @@ const Layout = ({ children, pageInfo }) => (
           <body className="is-fullheight" />
         </Helmet>
         <Navbar pageInfo={pageInfo} />
-        <Helmet>
-          <script dangerouslySetInnerHTML={{ __html: `
-      console.log("test");
-      if (window.location.hostname == "zoefensemble.nl") {
-              window.location.replace("https://ensemblzoef.nl");
-            }
-    ` }}/>
-        </Helmet>
         {pageInfo.title ? (
           <div className="is-fullheight main-content text-center text-white bg-primary">
             <main>

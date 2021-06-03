@@ -15,10 +15,15 @@ const AgendaSection = ({ intl }) => (
       {performances.map((p) => (
         <div className="row mb-2">
           <div className="col-12 col-sm-4 col-md-2 text-right">
-            {moment(p.date).format('DD/MM/YYYY')}
+            {p.postponed ? (
+              <strong>Postponed due to COVID-19</strong>
+            ) : (
+              moment(p.date).format('DD/MM/YYYY')
+            )}
+            {}
             <br />
             {p.city}
-            {moment(p.date).isBefore(moment().add(1, 'days')) ? (
+            {!p.postponed && moment(p.date).isBefore(moment().add(1, 'days')) ? (
               <>
                 <br />
                 <em>
