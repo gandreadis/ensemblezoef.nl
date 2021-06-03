@@ -23,7 +23,8 @@ const AgendaSection = ({ intl }) => (
             {}
             <br />
             {p.city}
-            {!p.postponed && moment(p.date).isBefore(moment().add(1, 'days')) ? (
+            {!p.postponed &&
+            moment(p.date).isBefore(moment().subtract(2, 'days')) ? (
               <>
                 <br />
                 <em>
