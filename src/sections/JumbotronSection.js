@@ -3,7 +3,7 @@ import { injectIntl } from 'gatsby-plugin-intl'
 import { Container } from 'react-bootstrap'
 import { motion } from 'framer-motion'
 
-import { FaYoutube, FaInstagram, FaFacebook } from 'react-icons/fa'
+import { FaYoutube, FaInstagram, FaFacebook, FaSpotify } from 'react-icons/fa'
 
 const JumbotronSection = ({ intl }) => (
   <Container className="jumbotron-container">
@@ -34,6 +34,14 @@ const JumbotronSection = ({ intl }) => (
           className="mr-2 text-white"
         >
           <FaFacebook size={32} />
+        </a>
+        <a
+          href="https://open.spotify.com/artist/4od9U5zd73pNVX44jiogK7?si=BzzXd-FaR_epgzBO4IPPUg"
+          target="_blank"
+          rel="noreferrer"
+          className="mr-2 text-white"
+        >
+          <FaSpotify size={32} />
         </a>
         <a
           href="https://www.youtube.com/channel/UC-Jw2XCI6tugO3A1KXQ_AxQ"

@@ -2,7 +2,7 @@ import React from 'react'
 
 import { injectIntl } from 'gatsby-plugin-intl'
 
-import { FaEnvelope, FaFacebook, FaInstagram, FaYoutube } from 'react-icons/fa'
+import { FaEnvelope, FaFacebook, FaInstagram, FaYoutube, FaSpotify } from 'react-icons/fa'
 import Markdown from 'react-remarkable'
 
 import Section from './Section'
@@ -35,6 +35,15 @@ const ContactSection = ({ intl }) => (
     >
       <FaFacebook size={28} className="mr-2" />
       Facebook
+    </a>
+    <a
+      href="https://open.spotify.com/artist/4od9U5zd73pNVX44jiogK7?si=BzzXd-FaR_epgzBO4IPPUg"
+      target="_blank"
+      rel="noreferrer"
+      className="mr-md-2 mt-2 mt-md-0 btn btn-light text-primary"
+    >
+      <FaSpotify size={28} className="mr-2" />
+      Spotify
     </a>
     <a
       href="https://www.youtube.com/channel/UC-Jw2XCI6tugO3A1KXQ_AxQ"
