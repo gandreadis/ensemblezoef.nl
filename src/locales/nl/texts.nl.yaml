@@ -30,15 +30,19 @@ musicians:
       orrin: bassist en IT’er
       janneke: zangeres, violiste en antropologe
 
-repertoire:
-  title: Repertoire
-  text: |
-    We hebben een breed repertoire, bestaande uit grotendeels eigen geschreven arrangementen. Hieruit kiezen we voor elk optreden een uniek, toepasselijk programma. Hieronder een selectie van ons huidig programma:
-
 agenda:
   title: Agenda
   text: Optredens in verleden en toekomst! We zijn de agenda nog aan het vullen, maar neem alvast een kijkje en hou de website in de gaten!
   past-event: Al geweest
+
+projects-overview:
+  title: Projecten
+  text: De meeste optredens die we geven maken deel uit van grotere projecten waarin we specifieke doelgroepen proberen te bereiken.
+
+repertoire:
+  title: Repertoire
+  text: |
+    We hebben een breed repertoire, bestaande uit grotendeels eigen geschreven arrangementen. Hieruit kiezen we voor elk optreden een uniek, toepasselijk programma. Hieronder een selectie van ons huidig programma:
 
 contact:
   title: Contact

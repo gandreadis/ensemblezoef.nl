@@ -47,7 +47,7 @@ class CustomNavbar extends React.Component {
       <Nav className="ml-auto">{children}</Nav>
     )
 
-    const navItems = ['about', 'musicians', 'repertoire', 'agenda', 'contact']
+    const navItems = ['about', 'musicians', 'projects-overview', 'agenda', 'repertoire', 'contact']
 
     return (
       <>
@@ -91,11 +91,14 @@ class CustomNavbar extends React.Component {
                 <Nav.Link href="#musicians" className="mr-2 text-white">
                   {intl.formatMessage({ id: 'musicians.title' })}
                 </Nav.Link>
-                <Nav.Link href="#repertoire" className="mr-2 text-white">
-                  {intl.formatMessage({ id: 'repertoire.title' })}
+                <Nav.Link href="#projects-overview" className="mr-2 text-white">
+                  {intl.formatMessage({ id: 'projects-overview.title' })}
                 </Nav.Link>
                 <Nav.Link href="#agenda" className="mr-2 text-white">
                   {intl.formatMessage({ id: 'agenda.title' })}
+                </Nav.Link>
+                <Nav.Link href="#repertoire" className="mr-2 text-white">
+                  {intl.formatMessage({ id: 'repertoire.title' })}
                 </Nav.Link>
                 <Nav.Link href="#contact" className="mr-2 text-white">
                   {intl.formatMessage({ id: 'contact.title' })}

@@ -8,6 +8,7 @@ import MusiciansSection from '../sections/MusiciansSection'
 import RepertoireSection from '../sections/RepertoireSection'
 import AgendaSection from '../sections/AgendaSection'
 import JumbotronSection from '../sections/JumbotronSection'
+import ProjectsSection from '../sections/ProjectsSection'
 
 const Index = () => (
   <Layout pageInfo={{ name: 'index' }}>
@@ -16,12 +17,13 @@ const Index = () => (
       keywords={['zoef', 'ensemble', 'muziek', 'music']}
       description="Een creatief en creërend collectief"
     />
-    <JumbotronSection />
-    <AboutSection />
-    <MusiciansSection />
-    <RepertoireSection />
-    <AgendaSection />
-    <ContactSection />
+    <JumbotronSection/>
+    <AboutSection/>
+    <MusiciansSection/>
+    <ProjectsSection/>
+    <AgendaSection/>
+    <RepertoireSection/>
+    <ContactSection/>
   </Layout>
 )
 

@@ -30,15 +30,19 @@ musicians:
       orrin: bass player and IT engineer
       janneke: singer, violinist and anthropologist
 
-repertoire:
-  title: Repertoire
-  text: |
-    We have a broad array of custom-made arrangements from many different genres. Specific titles and genres available on request! Below is a selection of our current repertoire:
-
 agenda:
   title: Agenda
   text: Performances we have given or will give. More to come - check back later for more!
   past-event: Past event
+
+projects-overview:
+  title: Projects
+  text: Most of our performances are a part of bigger projects in which we try to reach a specific audience.
+
+repertoire:
+  title: Repertoire
+  text: |
+    We have a broad array of custom-made arrangements from many different genres. Specific titles and genres available on request! Below is a selection of our current repertoire:
 
 contact:
   title: Contact
