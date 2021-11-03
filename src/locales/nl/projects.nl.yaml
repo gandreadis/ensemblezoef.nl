@@ -1,6 +1,7 @@
 ---
 projects:
   energetic-breeze:
+    title: ZOEF - Een Energieke Windvlaag
     target-audience: Kinderen in het speciaal basisonderwijs
     description: |
       In ons eerste project wouden we kinderen in het SBO bereiken, inspireren en verbinden met muziek. Voor elk optreden hebben we op maat gemaakte optredens voorbereid, waarin de kinderen verschillende muziekstijlen en instrumenten konden ontdekken en ook zelf mee konden doen. In totaal hebben we voor honderden kinderen gespeeld, verspreid over meerdere scholen.
@@ -8,6 +9,7 @@ projects:
       _Dit project is mede mogelijk gemaakt door het Prins Bernhard Cultuurmakersfonds._
 
   student-balkony:
+    title: ZOEF - Bij Studenten op het Balkon
     target-audience: Studenten
     description: |
       Een student zijn in de tijd van sociale isolatie is niet makkelijk. In dit project willen we studenten een hart onder de riem steken door voor ze en met ze muziek te maken.

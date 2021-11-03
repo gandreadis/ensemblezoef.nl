@@ -19,9 +19,20 @@ const ProjectsSection = ({ intl }) => (
           <div className="col-12 col-sm-8 col-md-10 text-left">
             <h4>
               {intl.formatMessage({
-                id: `projects.${p.id}.target-audience`,
+                id: `projects.${p.id}.title`,
               })}
             </h4>
+            <p>
+              <strong>
+              {intl.formatMessage({
+                id: `projects-overview.target-audience-title`,
+              })}
+              </strong>
+              {' '}
+              {intl.formatMessage({
+                id: `projects.${p.id}.target-audience`,
+              })}
+            </p>
             <Markdown>
               {intl.formatMessage({
                 id: `projects.${p.id}.description`,
