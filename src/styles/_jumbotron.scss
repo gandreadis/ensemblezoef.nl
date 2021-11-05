@@ -18,3 +18,9 @@
 .jumbotron-container {
   height: 100vh;
 }
+
+.jumbotron-container-container {
+  background-image: url("https://ensemblezoef.nl/zoef-group.jpg"), linear-gradient(rgba(34, 127, 132, 0.3), rgba(34, 127, 132, 0.3));
+  background-blend-mode: overlay;
+  background-size: cover;
+}

@@ -1,16 +1,22 @@
 ---
 projects:
   energetic-breeze:
-    title: ZOEF - An Energetic Breeze
+    title: An Energetic Breeze
     target-audience: Children at special education schools
     description: |
       In our first project, we wanted to connect one that was disproportionally affected by the COVID-19 pandemic: children with special education needs. We made custom musical performances for each occasion and managed to play for hundreds of children, in total.
 
       _This project was financially supported by the Prins Bernhard Cultuurmakersfonds._
 
+  nugter-masquerade:
+    title: Masquerade - Collaboration with Chiel Nugter
+    target-audience: Everybody
+    description: |
+      In this project, we collaborated with a young Dutch composer to make his dream a reality: recording a CD of his music with a classical ensemble. The album with music by Chiel Nugter can be found [on Spotify](https://open.spotify.com/album/4U2nGJ1NWcQz2RouA18wEV?si=bV_u8gJGRGO3cVJ1mtfjkg).
+
   student-balkony:
-    title: ZOEF - On Students' Doorsteps
-    target-audience: Students affected by the COVID-19 pandemic
+    title: On Students' Doorsteps
+    target-audience: Students (vocational and scientific education)
     description: |
       Being a student in this time of social isolation is difficult. In this project, we want to reach and connect those students, coming to their doorstep or school and playing custom-made performances for them.
 

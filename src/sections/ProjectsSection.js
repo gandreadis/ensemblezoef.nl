@@ -22,6 +22,7 @@ const ProjectsSection = ({ intl }) => (
                 id: `projects.${p.id}.title`,
               })}
             </h4>
+            {}
             <p>
               <strong>
               {intl.formatMessage({

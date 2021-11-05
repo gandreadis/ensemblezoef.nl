@@ -35,9 +35,3 @@
   city: Den Haag
   private: true
   postponed: true
-
-- id: carechangers-2021
-  date: 2021-10-01
-  city: Arnhem
-  private: true
-  postponed: true

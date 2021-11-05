@@ -1,16 +1,22 @@
 ---
 projects:
   energetic-breeze:
-    title: ZOEF - Een Energieke Windvlaag
+    title: Een Energieke Windvlaag
     target-audience: Kinderen in het speciaal basisonderwijs
     description: |
       In ons eerste project wouden we kinderen in het SBO bereiken, inspireren en verbinden met muziek. Voor elk optreden hebben we op maat gemaakte optredens voorbereid, waarin de kinderen verschillende muziekstijlen en instrumenten konden ontdekken en ook zelf mee konden doen. In totaal hebben we voor honderden kinderen gespeeld, verspreid over meerdere scholen.
 
       _Dit project is mede mogelijk gemaakt door het Prins Bernhard Cultuurmakersfonds._
 
+  nugter-masquerade:
+    title: Masquerade - Samenwerking met Chiel Nugter
+    target-audience: Iedereen
+    description: |
+      In dit project zijn we een samenwerking aangegaan met een jonge componist om van zijn droom werkelijkheid te maken: een CD met zijn muziek gespeeld door een klassiek ensemble op te nemen. Het album met muziek van Chiel Nugter, gespeeld door ZOEF, is [op Spotify](https://open.spotify.com/album/4U2nGJ1NWcQz2RouA18wEV?si=bV_u8gJGRGO3cVJ1mtfjkg) te beluisteren.
+
   student-balkony:
-    title: ZOEF - Bij Studenten op het Balkon
-    target-audience: Studenten
+    title: Bij Studenten op het Balkon
+    target-audience: Studenten (MBO, HBO, WO)
     description: |
       Een student zijn in de tijd van sociale isolatie is niet makkelijk. In dit project willen we studenten een hart onder de riem steken door voor ze en met ze muziek te maken.
 

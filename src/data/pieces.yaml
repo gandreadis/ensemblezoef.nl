@@ -1,0 +1,72 @@
+---
+- id: cavatina-beethoven
+
+- id: oboe-violin-bach
+  spotify: "https://open.spotify.com/track/7bQdnGaraBUiUx2ZGOxn6i?si=DG9KZ5mzQFCafElRzM5hkw"
+
+- id: czardas-monti
+
+- id: dolce-riposo-handel
+  spotify: "https://open.spotify.com/track/5a65eSyZYK48Jzoc4qiMsK?si=DcqW8hHCTYWHrCP4-Tc5qg"
+
+- id: genug-bach
+
+- id: weichet-nur-bach
+  spotify:
+    - "https://open.spotify.com/track/0BP3nE6f07caTDMomEAfHS?si=prfgLHdfTTCb_A4BAxE7zw"
+    - "https://open.spotify.com/track/1UjvU3uuwB9EqDjCCllIiF?si=TfYmRrU3QOq2D6Bl0uWJTw"
+  youtube: "https://www.youtube.com/watch?v=KeULBqDxCFc"
+
+- id: reve-faure
+  spotify: "https://open.spotify.com/track/1jYYHvv0u1Jlo7pCmSHB0G?si=PoIvwXw0RCqzUCfJnqcjvA"
+  youtube: "https://www.youtube.com/watch?v=1GZqUPthfIg"
+
+- id: kol-nidrei-bruch
+
+- id: meditation-suk
+
+- id: natzurka-accordzeam
+  spotify: "https://open.spotify.com/track/1vNHrjq4EsAsvtmQMI4EvU?si=8LzmdaNkQuuuBAAzE1hKeA"
+  youtube: "https://www.youtube.com/watch?v=39Mkej0m1A8"
+
+- id: nocturne-kachaturian
+
+- id: pie-jesu-faure
+
+- id: plink-plank-plunk-anderson
+
+- id: studies-folksong-williams
+  spotify:
+    - "https://open.spotify.com/track/3iMXFVBYhKVtQpPBBy95eK?si=39H2etJmSGWyC0sZPx7kHw"
+    - "https://open.spotify.com/track/7EQWTFXAMPwMLHAjUC2siP?si=pjHBS76GTAGS2Obu069M7g"
+    - "https://open.spotify.com/track/4NLj0NiWOUXiGuS6RadgGV?si=xsEOZ4bzQb-_MwXDdGbRDw"
+  youtube: "https://www.youtube.com/watch?v=R6lUSVAxSOk"
+
+- id: waltzy-lockwood
+  spotify: "https://open.spotify.com/track/1QZd8b2XBXlgkHOow3gwUc?si=NxIgkbTsTdevXj5Z-L8WgA"
+  youtube: "https://www.youtube.com/watch?v=OwQeew-Hv30"
+
+- id: laid-purcell
+
+- id: room-dreamers
+
+- id: freilach-folk
+  youtube: "https://www.youtube.com/watch?v=Mmp0Pew_ToA"
+
+- id: hungarian-dance-brahms
+
+- id: own-home-disney
+
+- id: yo-soy-maria-piazzolla
+
+- id: saudades-do-brasil-milhaud
+
+- id: pachelbel-goes-wild
+
+- id: lamento-della-ninfa-monteverdi
+
+- id: youkali-weill
+  spotify: "https://open.spotify.com/track/5SFR4EXYQAWFCgmpiEx82e?si=qy-_-AFXSRGgDBfI33B2eA"
+  youtube: "https://www.youtube.com/watch?v=7wGk5joaD5o"
+
+- id: blake-songs-williams

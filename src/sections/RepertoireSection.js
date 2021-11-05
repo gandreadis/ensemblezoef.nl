@@ -3,17 +3,35 @@ import React from 'react'
 import { injectIntl } from 'gatsby-plugin-intl'
 
 import Section from './Section'
+import { FaYoutube, FaSpotify } from 'react-icons/fa'
 
-const RepertoireItem = ({ id, intl }) => (
+import pieces from '../data/pieces.yaml'
+
+const RepertoireItem = ({ piece, intl }) => (
   <div className="mb-2 text-left">
-    <strong>{intl.formatMessage({ id: `pieces.${id}.title` })}</strong>
+    <strong>{intl.formatMessage({ id: `pieces.${piece.id}.title` })}</strong>
     {' - '}
-    {intl.formatMessage({ id: `pieces.${id}.composer` })}
-    {intl.formatMessage({ id: `pieces.${id}.arranger` }).indexOf('pieces') ===
+    {intl.formatMessage({ id: `pieces.${piece.id}.composer` })}
+    {typeof piece.youtube === "string" && (
+      <a href={piece.youtube} title="Link to a YouTube recording" className="text-white">
+        <FaYoutube className="ml-1"/>
+      </a>
+    )}
+    {Array.isArray(piece.spotify) && piece.spotify.map(s => (
+      <a href={s} title="Link to a Spotify recording" className="text-white">
+        <FaSpotify className="ml-1"/>
+      </a>
+    ))}
+    {typeof piece.spotify === "string" && (
+      <a href={piece.spotify} title="Link to a Spotify recording" className="text-white">
+        <FaSpotify className="ml-1"/>
+      </a>
+    )}
+    {intl.formatMessage({ id: `pieces.${piece.id}.arranger` }).indexOf('pieces') ===
       -1 && (
       <>
         <br />
-        {`arr. ${intl.formatMessage({ id: `pieces.${id}.arranger` })}`}
+        {`arr. ${intl.formatMessage({ id: `pieces.${piece.id}.arranger` })}`}
       </>
     )}
   </div>
@@ -24,32 +42,16 @@ const RepertoireSection = ({ intl }) => (
     <p className="pb-3">{intl.formatMessage({ id: 'repertoire.text' })}</p>
     <div className="row">
       <div className="col-12 col-md-6">
-        <RepertoireItem id="natzurka-accordzeam" intl={intl} />
-        <RepertoireItem id="plink-plank-plunk-anderson" intl={intl} />
-        <RepertoireItem id="genug-bach" intl={intl} />
-        <RepertoireItem id="oboe-violin-bach" intl={intl} />
-        <RepertoireItem id="cavatina-beethoven" intl={intl} />
-        <RepertoireItem id="hungarian-dance-brahms" intl={intl} />
-        <RepertoireItem id="kol-nidrei-bruch" intl={intl} />
-        <RepertoireItem id="room-dreamers" intl={intl} />
-        <RepertoireItem id="pie-jesu-faure" intl={intl} />
-        <RepertoireItem id="reve-faure" intl={intl} />
-        <RepertoireItem id="dolce-riposo-handel" intl={intl} />
-        <RepertoireItem id="nocturne-kachaturian" intl={intl} />
-        <RepertoireItem id="waltzy-lockwood" intl={intl} />
+        {pieces.slice(0, Math.ceil(pieces.length / 2) + 1).map(piece => <RepertoireItem key={piece.id} piece={piece} intl={intl} />)}
       </div>
       <div className="col-12 col-md-6">
-        <RepertoireItem id="cinema-paradiso-morricone" intl={intl} />
-        <RepertoireItem id="czardas-monti" intl={intl} />
-        <RepertoireItem id="freilach-folk" intl={intl} />
-        <RepertoireItem id="oblivion-piazzolla" intl={intl} />
-        <RepertoireItem id="laid-purcell" intl={intl} />
-        <RepertoireItem id="carnaval-saint-saens" intl={intl} />
-        <RepertoireItem id="oboe-sonata-saint-saens" intl={intl} />
-        <RepertoireItem id="own-home-disney" intl={intl} />
-        <RepertoireItem id="meditation-suk" intl={intl} />
-        <RepertoireItem id="studies-folksong-williams" intl={intl} />
+        {pieces.slice(Math.ceil(pieces.length / 2) + 1, pieces.length).map(piece => <RepertoireItem key={piece.id} piece={piece} intl={intl} />)}
       </div>
+    </div>
+    <h4 className="mt-4">Spotify Album</h4>
+    <div className="text-center">
+      <iframe src="https://open.spotify.com/embed/album/0b5iNmqC6WO4M26tjWf0e7" width="300" height="80" frameBorder="0"
+              allowTransparency="true" allow="encrypted-media" title="ZOEF Spotify Album"/>
     </div>
   </Section>
 )
