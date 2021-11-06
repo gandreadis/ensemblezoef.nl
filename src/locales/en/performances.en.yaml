@@ -1,36 +1,61 @@
 ---
 performances:
+  roc-beverwijk-2021:
+    location: ROC Beverwijk
+    description: |
+      We will play at a vocational training school for young adults, bringing a custom-made performance with a diverse repertoire to their campus.
+
+  fontys-2021:
+    location: Fontys College
+    description: |
+      We will give a short performance and talk for music education students, giving them a peek behind the curtains of how we try to reach new audiences and what educational elements we include in our performances. This is part of a larger trajectory in which those students will then go on to create a set of recommendations for a specific performance, which we can then try out in practice.
+
+  strandwacht-2021-2:
+    location: SBO School De Strandwacht (2/2)
+    description: |
+      At this school for special education, we delivered interactive performances where children got to experience and participate in music from close up. On this second day, we gave 4 performances.
+
+  strandwacht-2021-1:
+    location: SBO School De Strandwacht (1/2)
+    description: |
+      At this school for special education, we delivered interactive performances where children got to experience and participate in music from close up. On this first day, we gave 5 performances.
+
+  schreuderschool-2021:
+    location: P.H. Schreuderschool
+    description: |
+      At this school for children with special needs, we delivered a unique performance with an animal-theme. With the help of several custom-made arrangements of Carnaval des Animaux, we toke the children on a musical safari.
+
+  roc-hoofddorp-2021:
+    location: ROC Hoofddorp
+    description: |
+      We played at a vocational training school for young adults. Normally, these students would go to some external location once every couple of months to broaden their horizons, but because of the pandemic, this was not possible. Luckily, we could step in and bring our performance to them, on-campus.
+
+  diversity-housing-2021:
+    location: Diversity housing
+    description: |
+      We played at a local community center where students and persons with a refugee-background live. After enjoying the delicious dinner they made, we performed a selection of our repertoire for them.
+
   cultuurfonds-2021:
     location: Royal Palace
     description: |
-      We play at the ceremony for the "Zilveren Anjers", where volunteers are awarded a medal for contributions to culture. The recognitions are awarded by her Majesty, Princess Beatrix.
-
-  diversity-housing-2021:
-    location: Diversity housing location
-    description: |
-      More information coming soon!
-
-  hml-2020-1:
-    location: Haags Montessori Lyceum
-    description: |
-      At this school, we gave a series educational performances, featuring a unique composition workshop where we gave the children the opportunity to build their own music piece, as a group. On this first day, we gave two performances for two different age groups.
-
-  hml-2020-2:
-    location: Haags Montessori Lyceum
-    description: |
-      At this school, we gave a series educational performances, featuring a unique composition workshop where we gave the children the opportunity to build their own music piece, as a group. On this second day, we gave one performance.
-
-  heeze-2020:
-    location: Crematorium Heeze
-    description: |
-      We performed a selection of our repertoire at a funeral near Eindhoven, to lend strength to the attendees.
+      We played at the ceremony for the "Zilveren Anjers", where volunteers were awarded a medal for contributions to culture. The recognitions were awarded by her Majesty, Princess Beatrix.
 
   ita-2020:
     location: Internationaal Theater Amsterdam
     description: |
       We were a part of the "Time Out" theatre performance, performing a specially arranged song.
 
-  schreuderschool-2021:
-    location: P.H. Schreuderschool
+  heeze-2020:
+    location: Crematorium Heeze
     description: |
-      At this school for children with special needs, we will deliver a unique performance with animal-theme. With the help of several custom-made arrangements of Carnaval des Animaux, we will take the children on a musical safari.
+      We performed a selection of our repertoire at a funeral near Eindhoven, to lend strength to the attendees.
+
+  hml-2020-2:
+    location: Haags Montessori Lyceum (2/2)
+    description: |
+      At this school, we gave a series educational performances, featuring a unique composition workshop where we gave the children the opportunity to build their own music piece, as a group. On this second day, we gave one performance.
+
+  hml-2020-1:
+    location: Haags Montessori Lyceum (1/2)
+    description: |
+      At this school, we gave a series educational performances, featuring a unique composition workshop where we gave the children the opportunity to build their own music piece, as a group. On this first day, we gave two performances for two different age groups.

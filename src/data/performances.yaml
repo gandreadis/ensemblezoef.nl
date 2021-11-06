@@ -1,7 +1,34 @@
 ---
-- id: cultuurfonds-2021
-  date: 2021-06-04
-  city: Amsterdam
+- id: roc-beverwijk-2021
+  date: 2021-11-24
+  city: Beverwijk
+  private: true
+
+- id: fontys-2021
+  date: 2021-11-17
+  city: Tilburg
+  private: true
+
+- id: strandwacht-2021-2
+  date: 2021-10-07
+  city: Den Haag
+  private: true
+  num-performances: 4
+
+- id: strandwacht-2021-1
+  date: 2021-10-05
+  city: Den Haag
+  private: true
+  num-performances: 5
+
+- id: schreuderschool-2021
+  date: 2021-10-04
+  city: Den Haag
+  private: true
+
+- id: roc-hoofddorp-2021
+  date: 2021-09-14
+  city: Hoofddorp
   private: true
 
 - id: diversity-housing-2021
@@ -9,20 +36,9 @@
   city: Amsterdam
   private: true
 
-- id: hml-2020-1
-  date: 2020-10-13
-  city: Den Haag
-  private: true
-  num-performances: 2
-
-- id: hml-2020-2
-  date: 2020-10-15
-  city: Den Haag
-  private: true
-
-- id: heeze-2020
-  date: 2020-10-24
-  city: Heeze
+- id: cultuurfonds-2021
+  date: 2021-06-04
+  city: Amsterdam
   private: true
 
 - id: ita-2020
@@ -30,8 +46,18 @@
   city: Amsterdam
   private: false
 
-- id: schreuderschool-2021
-  date: 2021-03-08
+- id: heeze-2020
+  date: 2020-10-24
+  city: Heeze
+  private: true
+
+- id: hml-2020-2
+  date: 2020-10-15
   city: Den Haag
   private: true
-  postponed: true
+
+- id: hml-2020-1
+  date: 2020-10-13
+  city: Den Haag
+  private: true
+  num-performances: 2

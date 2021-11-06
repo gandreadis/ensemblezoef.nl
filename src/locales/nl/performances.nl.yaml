@@ -1,36 +1,61 @@
 ---
 performances:
-  cultuurfonds-2021:
-    location: Paleis op de Dam
+  roc-beverwijk-2021:
+    location: ROC Beverwijk
     description: |
-      We spelen op de ceremonie waar de Zilveren Anjers worden uitgereikt. Deze zijn bedoeld als erkenning voor speciale verdiensten voor de cultuur. De prijzen worden uitgereikt door Hare Koninklijke Hoogheid Prinses Beatrix.
+      We zullen op ROC Beverwijk een optreden voor de leerlingen geven met een divers repertoire en interactief programme.
+
+  fontys-2021:
+    location: Fontys Hogeschool
+    description: |
+      Op het Fontys zullen we een optreden en workshop geven over het werk dat we doen, waarbij we de muziek-educatie studenten een kijkje achter de schermen geven over hoe we een divers publiek proberen aan te spreken en mee te nemen in onze optredens. Dit optreden is het startschot van een langer traject waarin de studenten vervolgens aan de slag gaan om ons met uitgewerkte suggesties en educatieconcepten voorzien om een specifieke doelgroep te bereiken.
+
+  strandwacht-2021-2:
+    location: SBO School De Strandwacht (2/2)
+    description: |
+      Voor de kinderen van Speciaal Basis Onderwijs school De Strandwacht hebben we een serie optredens gegeven waarin de kinderen interactief kennis konden maken met klassieke muziekinstrumenten, via een breed repertoire en veel speelse elementen. Op deze tweede dag hebben we 4 optredens gegeven.
+
+  strandwacht-2021-1:
+    location: SBO School De Strandwacht (1/2)
+    description: |
+      Voor de kinderen van Speciaal Basis Onderwijs school De Strandwacht hebben we een serie optredens gegeven waarin de kinderen interactief kennis konden maken met klassieke muziekinstrumenten, via een breed repertoire en veel speelse elementen. Op deze eerste dag hebben we 5 optredens gegeven.
+
+  schreuderschool-2021:
+    location: P.H. Schreuderschool
+    description: |
+      Op deze school voor speciaal basisonderwijs hebben wij met een bijzondere voorstelling kinderen op een muzikale safari meegenomen. Dit hebben we gedaan met behulp van verschillende arrangementen van Carnaval des Animaux, geschreven speciaal voor dit optreden.
+
+  roc-hoofddorp-2021:
+    location: ROC Hoofddorp
+    description: |
+      Op het ROC Hoofddorp hebben we een optreden gegeven voor jonge studenten van het ROC. Voor de pandemie zouden deze studenten eens in de paar maanden op dag-excursie naar een externe locatie gaan, om hun horizon te verbreden. Door de pandemie was dit niet meer mogelijk, maar gelukkig konden we inspringen en een optreden op locatie voor ze verzorgen.
 
   diversity-housing-2021:
     location: Woondiversiteit
     description: |
       Meer informatie volgt snel!
 
-  hml-2020-1:
-    location: Haags Montessori Lyceum
+  cultuurfonds-2021:
+    location: Paleis op de Dam
     description: |
-      Op deze middelbare school hebben we een serie educatieve voorstellingen gegeven, met als belangrijk onderdeel een compositieworkshop die de kinderen het plezier van muziek bedenken en maken liet ervaren. Op de eerste dag gaven we twee optredens.
-
-  hml-2020-2:
-    location: Haags Montessori Lyceum
-    description: |
-      Op deze middelbare school hebben we een serie educatieve voorstellingen gegeven, met als belangrijk onderdeel een compositieworkshop die de kinderen het plezier van muziek bedenken en maken liet ervaren. Op deze tweede dag hebben we een optreden gegeven.
-
-  heeze-2020:
-    location: Crematorium Heeze
-    description: |
-      Op een uitvaart in het crematorium van Heeze (nabij Eindhoven) zorgden wij voor een muzikale bijdrage.
+      We spelen op de ceremonie waar de Zilveren Anjers worden uitgereikt. Deze zijn bedoeld als erkenning voor speciale verdiensten voor de cultuur. De prijzen worden uitgereikt door Hare Koninklijke Hoogheid Prinses Beatrix.
 
   ita-2020:
     location: Internationaal Theater Amsterdam
     description: |
       Een afvaardiging van ZOEF speelde mee in de "Time Out" theatervoorstelling, met een speciaal hiervoor gearrangeerd lied.
 
-  schreuderschool-2021:
-    location: P.H. Schreuderschool
+  heeze-2020:
+    location: Crematorium Heeze
     description: |
-      Op deze school voor speciaal basisonderwijs zullen wij met een bijzondere voorstelling kinderen op een muzikale safari meenemen. Dit zullen we doen met behulp van verschillende arrangementen van Carnaval des Animaux, geschreven speciaal voor dit optreden.
+      Op een uitvaart in het crematorium van Heeze (nabij Eindhoven) zorgden wij voor een muzikale bijdrage.
+
+  hml-2020-2:
+    location: Haags Montessori Lyceum (2/2)
+    description: |
+      Op deze middelbare school hebben we een serie educatieve voorstellingen gegeven, met als belangrijk onderdeel een compositieworkshop die de kinderen het plezier van muziek bedenken en maken liet ervaren. Op deze tweede dag hebben we een optreden gegeven.
+
+  hml-2020-1:
+    location: Haags Montessori Lyceum (1/2)
+    description: |
+      Op deze middelbare school hebben we een serie educatieve voorstellingen gegeven, met als belangrijk onderdeel een compositieworkshop die de kinderen het plezier van muziek bedenken en maken liet ervaren. Op de eerste dag gaven we twee optredens.
