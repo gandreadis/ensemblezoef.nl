@@ -9,6 +9,8 @@ const Footer = ({ intl }) => (
       <img src={zoefImage} height="90" alt="ZOEF" className="mb-3" />
 
       <p>Copyright &copy; {new Date().getFullYear()} ZOEF</p>
+
+      <p>KvK-nummer 84775920</p>
     </footer>
   </Container>
 )
