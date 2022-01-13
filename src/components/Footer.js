@@ -8,9 +8,9 @@ const Footer = ({ intl }) => (
     <footer className="text-white-50 pt-3 pb-1">
       <img src={zoefImage} height="90" alt="ZOEF" className="mb-3" />
 
-      <p>Copyright &copy; {new Date().getFullYear()} ZOEF</p>
+      <p>Stichting Ensemble ZOEF - KvK: 84775920</p>
 
-      <p>KvK-nummer 84775920</p>
+      <p>Copyright &copy; {new Date().getFullYear()} ZOEF</p>
     </footer>
   </Container>
 )
