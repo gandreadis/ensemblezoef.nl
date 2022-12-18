@@ -42,10 +42,10 @@ const RepertoireSection = ({ intl }) => (
     <p className="pb-3">{intl.formatMessage({ id: 'repertoire.text' })}</p>
     <div className="row">
       <div className="col-12 col-md-6">
-        {pieces.slice(0, Math.ceil(pieces.length / 2) + 1).map(piece => <RepertoireItem key={piece.id} piece={piece} intl={intl} />)}
+        {pieces.slice(0, Math.floor(pieces.length / 2) + 1).map(piece => <RepertoireItem key={piece.id} piece={piece} intl={intl} />)}
       </div>
       <div className="col-12 col-md-6">
-        {pieces.slice(Math.ceil(pieces.length / 2) + 1, pieces.length).map(piece => <RepertoireItem key={piece.id} piece={piece} intl={intl} />)}
+        {pieces.slice(Math.floor(pieces.length / 2) + 1, pieces.length).map(piece => <RepertoireItem key={piece.id} piece={piece} intl={intl} />)}
       </div>
     </div>
     <h4 className="mt-4">Spotify Album</h4>

@@ -38,15 +38,16 @@ const Musician = ({ name, id, intl }) => {
 
 const MusiciansSection = ({ intl }) => (
   <Section id="musicians">
-    <Markdown>{intl.formatMessage({ id: 'musicians.text' })}</Markdown>
     <div className="row mt-4">
       <Musician id="maud" name="Maud Busschers" intl={intl} />
+      <Musician id="cecilia" name="Cecilia van Berkum" intl={intl} />
       <Musician id="stijn" name="Stijn Brinkman" intl={intl} />
       <Musician id="nina" name="Nina Zuure" intl={intl} />
       <Musician id="georgios" name="Georgios Andreadis" intl={intl} />
       <Musician id="liutauras" name="Liutauras Žilaitis" intl={intl} />
       <Musician id="orrin" name="Orrin van Leeuwen" intl={intl} />
       <Musician id="janneke" name="Janneke Stoute" intl={intl} />
+      <Markdown>{intl.formatMessage({ id: 'musicians.text' })}</Markdown>
     </div>
   </Section>
 )

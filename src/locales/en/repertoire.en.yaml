@@ -1,9 +1,5 @@
 ---
 pieces:
-  cavatina-beethoven:
-    title: Cavatina (from string quartet 13)
-    composer: Beethoven
-
   oboe-violin-bach:
     title: Concerto for Oboe and Violin (BWV 1060R)
     composer: Bach
@@ -31,22 +27,9 @@ pieces:
     composer: Fauré
     arranger: Maud Busschers
 
-  kol-nidrei-bruch:
-    title: Kol Nidrei
-    composer: Bruch
-
-  meditation-suk:
-    title: Meditation on an Old Choral
-    composer: Suk
-
   natzurka-accordzeam:
     title: Natzurka
     composer: d’Accordzeam
-    arranger: Maud Busschers
-
-  nocturne-kachaturian:
-    title: Nocturne
-    composer: Kachaturian
     arranger: Maud Busschers
 
   pie-jesu-faure:
@@ -116,3 +99,48 @@ pieces:
   blake-songs-williams:
     title: Ten Blake Songs
     composer: Vaughan Williams
+
+  woman-franklin:
+    title: A Natural Woman
+    composer: Aretha Franklin
+    arranger: Nina Zuure
+
+  encore-aznavour:
+    title: Encore
+    composer: Aznavour
+    arranger: Maud Busschers
+
+  divertissement-bozza:
+    title: Divertissement
+    composer: Bozza
+
+  pianga-handel:
+    title: Lascia ch'io pianga
+    composer: Handel
+
+  fantasy-quartet-britten:
+    title: Fantasy quartet
+    composer: Britten
+
+  alfonsina-soza:
+    title: Alfonsina Y El Mar
+    composer: Mercedes Sosa
+    arranger: Orrin van Leeuwen
+
+  oboe-quartet-mozart:
+    title: Oboe quartet
+    composer: Mozart
+
+  bwv1-bach:
+    title: Wie Schön Leuchtet der Morgenstern
+    composer: Bach
+
+  manha-bonfa:
+    title: Manha de Carnaval
+    composer: Luiz Bonfá
+    arranger: Orrin van Leeuwen
+
+  preludes-gerschwin-bouma:
+    title: Three Preludes
+    composer: Gerschwin
+    arranger: Hugo Bouma

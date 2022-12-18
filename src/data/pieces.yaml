@@ -1,6 +1,4 @@
 ---
-- id: cavatina-beethoven
-
 - id: oboe-violin-bach
   spotify: "https://open.spotify.com/track/7bQdnGaraBUiUx2ZGOxn6i?si=DG9KZ5mzQFCafElRzM5hkw"
 
@@ -21,15 +19,13 @@
   spotify: "https://open.spotify.com/track/1jYYHvv0u1Jlo7pCmSHB0G?si=PoIvwXw0RCqzUCfJnqcjvA"
   youtube: "https://www.youtube.com/watch?v=1GZqUPthfIg"
 
-- id: kol-nidrei-bruch
+- id: manha-bonfa
 
-- id: meditation-suk
+- id: preludes-gerschwin-bouma
 
 - id: natzurka-accordzeam
   spotify: "https://open.spotify.com/track/1vNHrjq4EsAsvtmQMI4EvU?si=8LzmdaNkQuuuBAAzE1hKeA"
   youtube: "https://www.youtube.com/watch?v=39Mkej0m1A8"
-
-- id: nocturne-kachaturian
 
 - id: pie-jesu-faure
 
@@ -70,3 +66,19 @@
   youtube: "https://www.youtube.com/watch?v=7wGk5joaD5o"
 
 - id: blake-songs-williams
+
+- id: woman-franklin
+
+- id: encore-aznavour
+
+- id: divertissement-bozza
+
+- id: pianga-handel
+
+- id: fantasy-quartet-britten
+
+- id: alfonsina-soza
+
+- id: oboe-quartet-mozart
+
+- id: bwv1-bach
