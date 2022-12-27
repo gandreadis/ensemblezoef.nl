@@ -44,7 +44,7 @@ class CustomNavbar extends React.Component {
     let { pageInfo, intl } = this.props
 
     const NavContainer = ({ children }) => (
-      <Nav className="ml-auto">{children}</Nav>
+      <Nav className="ms-auto">{children}</Nav>
     )
 
     const navItems = ['about', 'musicians', 'projects-overview', 'agenda', 'repertoire', 'contact']
@@ -85,22 +85,22 @@ class CustomNavbar extends React.Component {
                 currentClassName="font-family-header"
                 componentTag={NavContainer}
               >
-                <Nav.Link href="#about" className="mr-2 text-white">
+                <Nav.Link href="#about" className="me-2 text-white">
                   {intl.formatMessage({ id: 'about.title' })}
                 </Nav.Link>
-                <Nav.Link href="#musicians" className="mr-2 text-white">
+                <Nav.Link href="#musicians" className="me-2 text-white">
                   {intl.formatMessage({ id: 'musicians.title' })}
                 </Nav.Link>
-                <Nav.Link href="#projects-overview" className="mr-2 text-white">
+                <Nav.Link href="#projects-overview" className="me-2 text-white">
                   {intl.formatMessage({ id: 'projects-overview.title' })}
                 </Nav.Link>
-                <Nav.Link href="#agenda" className="mr-2 text-white">
+                <Nav.Link href="#agenda" className="me-2 text-white">
                   {intl.formatMessage({ id: 'agenda.title' })}
                 </Nav.Link>
-                <Nav.Link href="#repertoire" className="mr-2 text-white">
+                <Nav.Link href="#repertoire" className="me-2 text-white">
                   {intl.formatMessage({ id: 'repertoire.title' })}
                 </Nav.Link>
-                <Nav.Link href="#contact" className="mr-2 text-white">
+                <Nav.Link href="#contact" className="me-2 text-white">
                   {intl.formatMessage({ id: 'contact.title' })}
                 </Nav.Link>
                 <LanguageSwitcher />

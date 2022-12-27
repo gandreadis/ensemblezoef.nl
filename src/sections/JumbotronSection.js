@@ -24,7 +24,7 @@ const JumbotronSection = ({ intl }) => (
             href="https://www.instagram.com/ensemblezoef/"
             target="_blank"
             rel="noreferrer"
-            className="mr-2 text-white"
+            className="me-2 text-white"
           >
             <FaInstagram size={32} />
           </a>
@@ -32,7 +32,7 @@ const JumbotronSection = ({ intl }) => (
             href="https://www.facebook.com/ensemblezoef/"
             target="_blank"
             rel="noreferrer"
-            className="mr-2 text-white"
+            className="me-2 text-white"
           >
             <FaFacebook size={32} />
           </a>
@@ -40,7 +40,7 @@ const JumbotronSection = ({ intl }) => (
             href="https://open.spotify.com/artist/4od9U5zd73pNVX44jiogK7?si=BzzXd-FaR_epgzBO4IPPUg"
             target="_blank"
             rel="noreferrer"
-            className="mr-2 text-white"
+            className="me-2 text-white"
           >
             <FaSpotify size={32} />
           </a>
@@ -48,7 +48,7 @@ const JumbotronSection = ({ intl }) => (
             href="https://www.youtube.com/channel/UC-Jw2XCI6tugO3A1KXQ_AxQ"
             target="_blank"
             rel="noreferrer"
-            className="mr-2 text-white"
+            className="me-2 text-white"
           >
             <FaYoutube size={32} />
           </a>

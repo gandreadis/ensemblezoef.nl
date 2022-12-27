@@ -24,7 +24,7 @@ class LanguageSwitcher extends Component {
         <img
           src={this.getImageByCode(code)}
           alt={label}
-          className="mr-2"
+          className="me-2"
           width="30px"
         />
         {label}

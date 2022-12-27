@@ -12,18 +12,18 @@ const ContactSection = ({ intl }) => (
     <p className="mb-3">{intl.formatMessage({ id: 'contact.text' })}</p>
     <a
       href="mailto:ensemblezoef@gmail.com"
-      className="mr-2 btn btn-light text-primary"
+      className="me-2 btn btn-light text-primary"
     >
-      <FaEnvelope size={28} className="mr-2" />
+      <FaEnvelope size={28} className="me-2" />
       Email
     </a>
     <a
       href="https://www.instagram.com/ensemblezoef/"
       target="_blank"
       rel="noreferrer"
-      className="mr-md-2 btn btn-light text-primary"
+      className="me-md-2 btn btn-light text-primary"
     >
-      <FaInstagram size={28} className="mr-2" />
+      <FaInstagram size={28} className="me-2" />
       Instagram
     </a>
     <br className="d-block d-md-none" />
@@ -31,27 +31,27 @@ const ContactSection = ({ intl }) => (
       href="https://www.facebook.com/ensemblezoef/"
       target="_blank"
       rel="noreferrer"
-      className="mr-2 mt-2 mt-md-0 btn btn-light text-primary"
+      className="me-2 mt-2 mt-md-0 btn btn-light text-primary"
     >
-      <FaFacebook size={28} className="mr-2" />
+      <FaFacebook size={28} className="me-2" />
       Facebook
     </a>
     <a
       href="https://open.spotify.com/artist/4od9U5zd73pNVX44jiogK7?si=BzzXd-FaR_epgzBO4IPPUg"
       target="_blank"
       rel="noreferrer"
-      className="mr-md-2 mt-2 mt-md-0 btn btn-light text-primary"
+      className="me-md-2 mt-2 mt-md-0 btn btn-light text-primary"
     >
-      <FaSpotify size={28} className="mr-2" />
+      <FaSpotify size={28} className="me-2" />
       Spotify
     </a>
     <a
       href="https://www.youtube.com/channel/UC-Jw2XCI6tugO3A1KXQ_AxQ"
       target="_blank"
       rel="noreferrer"
-      className="mr-md-2 mt-2 mt-md-0 btn btn-light text-primary"
+      className="me-md-2 mt-2 mt-md-0 btn btn-light text-primary"
     >
-      <FaYoutube size={28} className="mr-2" />
+      <FaYoutube size={28} className="me-2" />
       YouTube
     </a>
     <p className="mt-3">

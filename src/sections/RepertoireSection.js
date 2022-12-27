@@ -14,17 +14,17 @@ const RepertoireItem = ({ piece, intl }) => (
     {intl.formatMessage({ id: `pieces.${piece.id}.composer` })}
     {typeof piece.youtube === "string" && (
       <a href={piece.youtube} title="Link to a YouTube recording" className="text-white">
-        <FaYoutube className="ml-1"/>
+        <FaYoutube className="ms-1"/>
       </a>
     )}
     {Array.isArray(piece.spotify) && piece.spotify.map(s => (
       <a href={s} title="Link to a Spotify recording" className="text-white">
-        <FaSpotify className="ml-1"/>
+        <FaSpotify className="ms-1"/>
       </a>
     ))}
     {typeof piece.spotify === "string" && (
       <a href={piece.spotify} title="Link to a Spotify recording" className="text-white">
-        <FaSpotify className="ml-1"/>
+        <FaSpotify className="ms-1"/>
       </a>
     )}
     {intl.formatMessage({ id: `pieces.${piece.id}.arranger` }).indexOf('pieces') ===
