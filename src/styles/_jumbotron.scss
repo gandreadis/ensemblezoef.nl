@@ -6,6 +6,7 @@
 
   h1 {
     font-size: 6rem;
+
   }
 }
 
@@ -17,6 +18,10 @@
 
 .jumbotron-container {
   height: 100vh;
+}
+
+.blur-container {
+  backdrop-filter: blur(3px);
 }
 
 .jumbotron-container-container {

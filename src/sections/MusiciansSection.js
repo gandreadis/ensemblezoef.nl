@@ -38,7 +38,7 @@ const Musician = ({ name, id, intl }) => {
 
 const MusiciansSection = ({ intl }) => (
   <Section id="musicians">
-    <div className="row text-center">
+    <div className="row justify-content-center">
       <div className="col-6 p-3">
         <img src="https://ensemblezoef.nl/zoef-interactie.jpg" className="img-fluid" alt="ZOEF in actie"/>
       </div>

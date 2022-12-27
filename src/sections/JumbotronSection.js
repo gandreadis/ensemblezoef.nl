@@ -7,6 +7,7 @@ import { FaYoutube, FaInstagram, FaFacebook, FaSpotify } from 'react-icons/fa'
 
 const JumbotronSection = ({ intl }) => (
   <div className="jumbotron-container-container">
+    <div className="blur-container">
     <Container className="jumbotron-container">
       <motion.div
         className="center-name"
@@ -55,6 +56,7 @@ const JumbotronSection = ({ intl }) => (
         </p>
       </motion.div>
     </Container>
+    </div>
   </div>
 )
 
