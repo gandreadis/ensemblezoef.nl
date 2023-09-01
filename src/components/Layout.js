@@ -9,7 +9,7 @@ import '../styles/style.scss'
 import { Helmet } from 'react-helmet'
 import Footer from './Footer'
 
-const Layout = ({ children, pageInfo }) => (
+const Layout = ({ children, pageInfo, withoutNavbar = false }) => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
@@ -53,7 +53,7 @@ const Layout = ({ children, pageInfo }) => (
           <html className="is-fullheight bg-primary" lang="nl" />
           <body className="is-fullheight" />
         </Helmet>
-        <Navbar pageInfo={pageInfo} />
+        {!withoutNavbar && <Navbar pageInfo={pageInfo} />}
         {pageInfo.title ? (
           <div className="is-fullheight main-content text-center text-white bg-primary">
             <main>
