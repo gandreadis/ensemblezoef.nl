@@ -13,6 +13,10 @@ const Footer = ({ intl }) => (
       <p>E-Mail: <a className="text-white-50" href="mailto:ensemblezoef@gmail.com">ensemblezoef@gmail.com</a> - Address: Bethaniestraat 28, 5211 LJ 's Hertogenbosch</p>
       <p><a className="text-white-50" href="/foundation">Klik hier</a> voor meer informatie over Stichting Ensemble ZOEF</p>
 
+      <p>
+        <img src="/ANBI_zk_diap.png" alt="ANBI"/>
+      </p>
+
       <p>Copyright &copy; {new Date().getFullYear()} ZOEF</p>
     </footer>
   </Container>
