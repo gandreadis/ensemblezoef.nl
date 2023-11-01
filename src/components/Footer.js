@@ -14,7 +14,7 @@ const Footer = ({ intl }) => (
       <p><a className="text-white-50" href="/foundation">Klik hier</a> voor meer informatie over Stichting Ensemble ZOEF</p>
 
       <p>
-        <img src="/ANBI_zk_diap.png" alt="ANBI"/>
+        <img src="/ANBI_zk_diap.png" width="150" alt="ANBI" className="mb-3"/>
       </p>
 
       <p>Copyright &copy; {new Date().getFullYear()} ZOEF</p>
