@@ -57,3 +57,6 @@ not-found:
   title: Pagina niet gevonden
   subtitle: Deze pagina bestaat helaas niet.
   action: Terugkeren naar home?
+
+donate:
+  button: Doneer aan Ensemble ZOEF

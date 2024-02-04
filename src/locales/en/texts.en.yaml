@@ -57,3 +57,6 @@ not-found:
   title: Page Not Found
   subtitle: This page doesn't seem to exist.
   action: Return home?
+
+donate:
+  button: Donate to Ensemble ZOEF

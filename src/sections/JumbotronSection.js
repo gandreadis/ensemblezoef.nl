@@ -54,6 +54,16 @@ const JumbotronSection = ({ intl }) => (
             <FaYoutube size={32} />
           </a>
         </p>
+        <p>
+          <img src="/ANBI_zk_diap.png" alt="ANBI" className="mt-3" style={{ "width": 100 }} />
+        </p>
+
+        <link rel="stylesheet" type="text/css" href="https://donorbox.org/animate-popup-donate-button.css" />
+        <script type="text/javascript" defer="" src="https://donorbox.org/install-popup-button.js"
+                id="donorbox-popup-button-installer"
+                data-href="https://donorbox.org/website-donation-form-69?default_interval=o"
+                data-style="background: rgb(245, 171, 10); color: rgb(255, 255, 255); text-decoration: none; font-family: Verdana, sans-serif; display: flex; font-size: 16px; padding: 12px 24px; border-radius: 8px; gap: 8px; width: fit-content; line-height: 24px; position: fixed; top: 50%; transform: translate(0px, 0px) rotate(-90deg); z-index: 9999; overflow: hidden; right: -41px;"
+                data-img-src="https://donorbox.org/images/white_logo.svg"></script>
       </motion.div>
     </Container>
     </div>
