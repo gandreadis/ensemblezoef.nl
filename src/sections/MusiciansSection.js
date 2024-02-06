@@ -43,6 +43,12 @@ const MusiciansSection = ({ intl }) => (
         <img src="https://ensemblezoef.nl/zoef-interactie.jpg" className="img-fluid" alt="ZOEF in actie"/>
       </div>
     </div>
+
+    <h3>{intl.formatMessage({ id: 'musicians.heading-current' })}</h3>
+    <p className="mb-3">
+      Nina Zuure, Stijn Brinkman, Maud Busschers, Annemarie Hensens, Falou Lansink, Benjamin de Boer & Nick Verschoor
+    </p>
+    <h3>{intl.formatMessage({ id: 'musicians.heading-founding' })}</h3>
     <div className="row mt-4">
       <Musician id="maud" name="Maud Busschers" intl={intl} />
       <Musician id="cecilia" name="Cecilia van Berkum" intl={intl} />
