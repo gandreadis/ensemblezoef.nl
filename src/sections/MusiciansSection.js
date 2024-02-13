@@ -51,20 +51,20 @@ const MusiciansSection = ({ intl }) => (
     <h3 className="mt-5">
       {intl.formatMessage({ id: 'musicians.heading-current' })}
     </h3>
-    <p className="mb-4">
-      <strong>Nina Zuure</strong>
+    <p className="mb-5">
+      <h5>Nina Zuure</h5>
       <br />
-      <strong>Stijn Brinkman</strong>
+      <h5>Stijn Brinkman</h5>
       <br />
-      <strong>Maud Busschers</strong>
+      <h5>Maud Busschers</h5>
       <br />
-      <strong>Annemarie Hensens</strong>
+      <h5>Annemarie Hensens</h5>
       <br />
-      <strong>Falou Lansink</strong>
+      <h5>Falou Lansink</h5>
       <br />
-      <strong>Benjamin de Boer</strong>
+      <h5>Benjamin de Boer</h5>
       <br />
-      <strong>Nick Verschoor</strong>
+      <h5>Nick Verschoor</h5>
     </p>
     <h3>{intl.formatMessage({ id: 'musicians.heading-founding' })}</h3>
     <div className="row mt-4">
