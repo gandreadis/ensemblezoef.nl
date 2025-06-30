@@ -34,8 +34,12 @@ const Foundation = () => (
         </p>
         <h2>Documenten</h2>
         <p><a href="/foundation/Beleidsplan_Stichting_Ensemble_ZOEF_-_2023-2025.pdf">Klik hier</a> voor het beleidsplan van 2023-2025 van onze stichting, inclusief een verslag van eerdere activiteiten.</p>
-        <p><a href="/foundation/Jaarrekening_ZOEF_2022.pdf">Klik hier</a> voor de jaarrekening van boekjaar van 2022.</p>
-
+        <p>Jaarrekeningen/jaarverslagen van onze stichting:</p>
+        <ol>
+            <li><a href="/foundation/Jaarrekening_ZOEF_2022.pdf">Voor het jaar 2022</a></li>
+            <li><a href="/foundation/Jaarverslag_ZOEF_2023.pdf">Voor het jaar 2023</a></li>
+            <li><a href="/foundation/Jaarverslag_ZOEF_2024.pdf">Voor het jaar 2024</a></li>
+        </ol>
         <p className="pt-3">
             <em><a href="/">Klik hier om terug te gaan naar de hoofdpagina</a></em>
         </p>
