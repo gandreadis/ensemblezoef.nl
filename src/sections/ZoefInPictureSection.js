@@ -16,7 +16,7 @@ const ZoefInPictureSection = ({ intl }) => (
         </Row>
         <Row className="justify-content-center pb-3">
             <Col className="col-lg-6">
-                <iframe src="https://www.youtube-nocookie.com/embed/_A1_X5ieiCw"
+                <iframe src="https://www.youtube.com/embed/_A1_X5ieiCw"
                     title="YouTube video player" frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen width={400} height={225} />
@@ -30,7 +30,7 @@ const ZoefInPictureSection = ({ intl }) => (
         </Row>
         <Row className="justify-content-center pb-3">
             <Col className="col-lg-6">
-                <iframe src="https://www.youtube-nocookie.com/embed/xlDAf55NB9U"
+                <iframe src="https://www.youtube.com/embed/xlDAf55NB9U"
                     title="YouTube video player" frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen width={400} height={225} />
