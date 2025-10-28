@@ -16,7 +16,7 @@ about:
 musicians:
   title: Musicians
   text: |
-    With our broad field of interests, we can connect to our audience in many different ways and inspire from different perspectives and specializations. Many of our members are multi-instrumentalists, as well, giving us a broad range of styles and combinations to choose from.
+    ZOEF consists of musicians with backgrounds in social work, philosophy, and orthopedagogy, among other fields. This diversity ensures that the ensemble connects not only musically but also artistically and pedagogically with diverse target groups, allowing music to bring depth, connection, and healing.
     
     Photography credits: Julia Koenen. Please request permission before use.
   heading-current: "Musicians 2024:"
@@ -35,13 +35,24 @@ musicians:
 
 agenda:
   title: Agenda
-  text: Performances we have given or will give. More to come - check back later for more!
+  text: TBA
   past-event: Past event
 
 projects-overview:
   title: Projects
   target-audience-title: For which audience?
   text: Most of our performances are a part of bigger projects in which we try to reach a specific audience.
+
+zoef-in-picture:
+  title: ZOEF documentaries
+  episode-1:
+    title: "Episode 1: Amersfoort"
+    text: |
+      How do you give space to stories that are rarely heard? With Cultureel Zwerfgoed, Ensemble ZOEF visits Leger des Heils shelters to make and play music with residents. In close collaboration with the Leger des Heils, we visited nine social shelters throughout the Netherlands starting in April 2024 to give hidden worlds of experience a place through music! Through workshops and concerts on location, we brought the music back to the place where it deserves to be heard. The special encounters in these places will stay with us for the rest of our lives. Our deepest gratitude goes to Pixel Universe, who, with their exceptionally honest approach, managed to capture these stories. This episode focuses on the reason for Cultureel Zwerfgoed: it shows how music can be a key to connection, ownership, and humanity in a place where these are not self-evident.
+  episode-2:
+    title: "Episode 2: Rotterdam"
+    text: |
+      Music is in everyone. With Cultureel Zwerfgoed, Ensemble ZOEF visits Leger des Heils shelters to make and play music with residents. In close collaboration with the Leger des Heils, we visited nine social shelters throughout the Netherlands starting in April 2024 to give hidden worlds of experience a place through music! Through workshops and concerts on location, we brought the music back to where it deserves to be heard. The special encounters at these places will stay with us for the rest of our lives. Our deepest gratitude goes to Pixel Universe, who, with their exceptionally honest approach, managed to capture the stories. This episode focuses on the how of Cultureel Zwerfgoed: co-creation as the key to ownership, connection, and recovery.
 
 repertoire:
   title: Repertoire

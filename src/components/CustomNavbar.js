@@ -94,6 +94,9 @@ class CustomNavbar extends React.Component {
                 <Nav.Link href="#projects-overview" className="me-2 text-white">
                   {intl.formatMessage({ id: 'projects-overview.title' })}
                 </Nav.Link>
+                <Nav.Link href="#zoef-in-picture" className="me-2 text-white">
+                  {intl.formatMessage({ id: 'zoef-in-picture.title' })}
+                </Nav.Link>
                 <Nav.Link href="#agenda" className="me-2 text-white">
                   {intl.formatMessage({ id: 'agenda.title' })}
                 </Nav.Link>

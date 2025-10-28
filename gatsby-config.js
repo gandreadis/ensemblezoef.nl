@@ -8,7 +8,6 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
-    `gatsby-plugin-remove-trailing-slashes`,
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-anchor-links`,
     `gatsby-plugin-catch-links`,

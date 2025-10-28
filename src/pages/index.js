@@ -9,6 +9,7 @@ import RepertoireSection from '../sections/RepertoireSection'
 import AgendaSection from '../sections/AgendaSection'
 import JumbotronSection from '../sections/JumbotronSection'
 import ProjectsSection from '../sections/ProjectsSection'
+import ZoefInPictureSection from '../sections/ZoefInPictureSection'
 
 const Index = () => (
   <Layout pageInfo={{ name: 'index' }}>
@@ -21,6 +22,7 @@ const Index = () => (
     <AboutSection/>
     <MusiciansSection/>
     <ProjectsSection/>
+    <ZoefInPictureSection/>
     <AgendaSection/>
     <RepertoireSection/>
     <ContactSection/>

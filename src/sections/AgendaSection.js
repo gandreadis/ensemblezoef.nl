@@ -10,8 +10,8 @@ import Section from './Section'
 
 const AgendaSection = ({ intl }) => (
   <Section id="agenda">
-    <p className="mb-3">{intl.formatMessage({ id: 'agenda.text' })}</p>
-    <div>
+    <h4 className="mb-3">{intl.formatMessage({ id: 'agenda.text' })}</h4>
+    {/* <div>
       {performances.map((p) => (
         <div className="row mb-2">
           <div className="col-12 col-sm-4 col-md-2 text-right">
@@ -49,7 +49,7 @@ const AgendaSection = ({ intl }) => (
           </div>
         </div>
       ))}
-    </div>
+    </div> */}
   </Section>
 )
 

@@ -58,13 +58,15 @@ const MusiciansSection = ({ intl }) => (
       <br />
       <h5>Maud Busschers</h5>
       <br />
-      <h5>Annemarie Hensens</h5>
+      <h5>Joris Branderhorst</h5>
       <br />
-      <h5>Falou Lansink</h5>
+      <h5>Annemarie Hensens</h5>
       <br />
       <h5>Benjamin de Boer</h5>
       <br />
-      <h5>Nick Verschoor</h5>
+      <h5>Noah Stakenborg</h5>
+      <br />
+      <h5>Job Huiskamp</h5>
     </p>
     <h3>{intl.formatMessage({ id: 'musicians.heading-founding' })}</h3>
     <div className="row mt-4">
