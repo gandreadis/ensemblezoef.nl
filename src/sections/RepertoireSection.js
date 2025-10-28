@@ -51,7 +51,7 @@ const RepertoireSection = ({ intl }) => (
     <h4 className="mt-4">Spotify Album</h4>
     <div className="text-center">
       <iframe src="https://open.spotify.com/embed/album/0b5iNmqC6WO4M26tjWf0e7" width="300" height="80" frameBorder="0"
-              allowTransparency="true" allow="encrypted-media" title="ZOEF Spotify Album"/>
+              allow="encrypted-media" title="ZOEF Spotify Album"/>
     </div>
   </Section>
 )

@@ -54,9 +54,9 @@ const ContactSection = ({ intl }) => (
       <FaYoutube size={28} className="me-2" />
       YouTube
     </a>
-    <p className="mt-3">
+    <div className="mt-3">
       <Markdown>{intl.formatMessage({ id: 'contact.telephone' })}</Markdown>
-    </p>
+    </div>
   </Section>
 )
 
