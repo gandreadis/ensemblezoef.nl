@@ -24,7 +24,7 @@ const Index = () => (
     <ProjectsSection/>
     <ZoefInPictureSection/>
     <AgendaSection/>
-    <RepertoireSection/>
+    {/* <RepertoireSection/> */}
     <ContactSection/>
   </Layout>
 )

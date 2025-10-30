@@ -71,7 +71,7 @@ const MusiciansSection = ({ intl }) => (
     <h3>{intl.formatMessage({ id: 'musicians.heading-founding' })}</h3>
     <div className="row mt-4">
       <Musician id="maud" name="Maud Busschers" intl={intl} />
-      <Musician id="cecilia" name="Cecilia van Berkum" intl={intl} />
+      {/* <Musician id="cecilia" name="Cecilia van Berkum" intl={intl} /> */}
       <Musician id="stijn" name="Stijn Brinkman" intl={intl} />
       <Musician id="nina" name="Nina Zuure" intl={intl} />
       <Musician id="georgios" name="Georgios Andreadis" intl={intl} />

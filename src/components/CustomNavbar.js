@@ -100,9 +100,9 @@ class CustomNavbar extends React.Component {
                 <Nav.Link href="#agenda" className="me-2 text-white">
                   {intl.formatMessage({ id: 'agenda.title' })}
                 </Nav.Link>
-                <Nav.Link href="#repertoire" className="me-2 text-white">
+                {/* <Nav.Link href="#repertoire" className="me-2 text-white">
                   {intl.formatMessage({ id: 'repertoire.title' })}
-                </Nav.Link>
+                </Nav.Link> */}
                 <Nav.Link href="#contact" className="me-2 text-white">
                   {intl.formatMessage({ id: 'contact.title' })}
                 </Nav.Link>
